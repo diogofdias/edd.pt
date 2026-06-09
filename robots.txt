@@ -5,4 +5,32 @@ Disallow: /.env
 Disallow: /.env.example
 Disallow: /update_reviews.py
 
+# Motores de pesquisa IA — indexação semântica permitida
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
 Sitemap: https://edd.pt/sitemap.xml
