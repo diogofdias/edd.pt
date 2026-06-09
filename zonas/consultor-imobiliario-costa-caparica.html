@@ -278,6 +278,14 @@
     .market-table td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--pedra); color: var(--texto); vertical-align: top; }
     .market-table tr:last-child td { border-bottom: none; background: var(--linho); font-weight: 600; }
     .market-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--latao); margin: 2rem 0 0.75rem; display: block; }
+  
+    /* Mini-testimonials grid */
+    .testimonials-mini { background: var(--linho); }
+    .testimonials-mini-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
+    .t-mini { background: var(--branco); padding: 1.75rem; border-radius: 2px; }
+    .t-stars { color: var(--latao); font-size: 0.875rem; margin-bottom: 0.75rem; letter-spacing: 0.05em; }
+    .t-text { font-family: var(--font-display); font-size: 1rem; font-weight: 300; font-style: italic; color: var(--tinta); line-height: 1.55; margin-bottom: 1rem; }
+    .t-author { font-family: var(--font-ui); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--suave); }
   </style>
 
 </head>
@@ -498,6 +506,25 @@
 </section>
 
 
+
+
+
+<section class="testimonials-mini section">
+  <div class="container">
+    <div class="testimonials-mini-grid">
+      <div class="t-mini">
+        <p class="t-stars">★★★★★</p>
+        <p class="t-text">"O Diogo alia uma série de ferramentas técnicas de grande valor para o sucesso do negócio, a uma total dedicação ao cliente e elevado profissionalismo, sempre com o foco no atendimento de excelência. Um profissional de total confiança!"</p>
+        <p class="t-author">Sofia Antunes · Google</p>
+      </div>
+      <div class="t-mini">
+        <p class="t-stars">★★★★★</p>
+        <p class="t-text">"Excelente Profissional, ajudou-nos bastante no cumprimento dos nossos objetivos de compra e venda de habitação. Será sempre a primeira escolha em futuros negócios."</p>
+        <p class="t-author">Dolores Nobre · Google</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="faq-section section">
 

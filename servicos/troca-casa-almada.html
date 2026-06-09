@@ -278,6 +278,14 @@
       transition: all 0.2s;
     }
     .nav-cta:hover { background: var(--latao); color: #ffffff; }
+  
+    /* Mini-testimonials grid */
+    .testimonials-mini { background: var(--linho); }
+    .testimonials-mini-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
+    .t-mini { background: var(--branco); padding: 1.75rem; border-radius: 2px; }
+    .t-stars { color: var(--latao); font-size: 0.875rem; margin-bottom: 0.75rem; letter-spacing: 0.05em; }
+    .t-text { font-family: var(--font-display); font-size: 1rem; font-weight: 300; font-style: italic; color: var(--tinta); line-height: 1.55; margin-bottom: 1rem; }
+    .t-author { font-family: var(--font-ui); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--suave); }
   </style>
 
 </head>
@@ -501,6 +509,34 @@
 
   </div>
 
+</section>
+
+
+
+<section class="testimonials-mini section">
+  <div class="container">
+    <div class="section-header">
+      <p class="eyebrow">Clientes</p>
+      <h2>O que dizem quem já passou pelo processo.</h2>
+    </div>
+    <div class="testimonials-mini-grid">
+      <div class="t-mini">
+        <p class="t-stars">★★★★★</p>
+        <p class="t-text">"O Diogo Dias é um excelente profissional, recomendo vivamente para qualquer negócio imobiliário. Demonstra grande conhecimento do mercado e um acompanhamento impecável em todas as etapas."</p>
+        <p class="t-author">David Cardoso · Google</p>
+      </div>
+      <div class="t-mini">
+        <p class="t-stars">★★★★★</p>
+        <p class="t-text">"O Diogo alia uma série de ferramentas técnicas de grande valor para o sucesso do negócio, a uma total dedicação ao cliente e elevado profissionalismo, sempre com o foco no atendimento de excelência. Um profissional de total confiança!"</p>
+        <p class="t-author">Sofia Antunes · Google</p>
+      </div>
+      <div class="t-mini">
+        <p class="t-stars">★★★★★</p>
+        <p class="t-text">"Excelente Profissional, ajudou-nos bastante no cumprimento dos nossos objetivos de compra e venda de habitação. Será sempre a primeira escolha em futuros negócios."</p>
+        <p class="t-author">Dolores Nobre · Google</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="cta-section">
