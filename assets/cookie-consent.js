@@ -59,6 +59,7 @@
     document.body.appendChild(banner);
     document.getElementById('edd-cb-accept').addEventListener('click', function () {
       dismiss('accepted');
+      document.dispatchEvent(new CustomEvent('edd:consent-accepted'));
     });
     document.getElementById('edd-cb-reject').addEventListener('click', function () {
       dismiss('rejected');
