@@ -32,7 +32,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root { --tinta:#0E1218;--latao:#B8935A;--linho:#F2EDE4;--pedra:#D8CFBE;--branco:#FFFFFF;--texto:#2C2C2C;--suave:#6B6B6B;--gutter:clamp(1.25rem,5vw,2.5rem);--font-display:'Cormorant Garamond',Georgia,serif;--font-ui:'Outfit',sans-serif;--font-body:'Manrope',sans-serif; }
+    :root { --tinta:#0E1218;--latao:#B8935A;--linho:#F2EDE4;--pedra:#D8CFBE;--branco:#FFFFFF;--texto:#2C2C2C;--suave:#6B6B6B;--gutter:clamp(1.25rem,5vw,2.5rem);--font-display:'Cormorant Garamond',Georgia,serif;--font-ui:'Outfit',sans-serif;--font-body:'Outfit',sans-serif; }
     body { font-family: var(--font-body); font-size: 1.0625rem; line-height: 1.75; color: var(--texto); background: var(--branco); -webkit-font-smoothing: antialiased; padding-top: 72px; }
     a { color: var(--latao); text-decoration: none; } a:hover { text-decoration: underline; }
     .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--tinta); padding: 1.25rem var(--gutter); display: flex; align-items: center; justify-content: space-between; }
@@ -111,6 +111,11 @@
     .mobile-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--tinta); border-top: 1px solid rgba(255,255,255,0.1); padding: 0.875rem 1.5rem; z-index: 50; }
     .mobile-cta a { display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: var(--latao); color: white; font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 500; padding: 0.875rem; border-radius: 2px; text-decoration: none; }
     @media (max-width: 768px) { .mobile-cta { display: block; } body { padding-bottom: 4.5rem; } }
+  
+    /* Resposta rapida */
+    .resposta-rapida { background: var(--linho); border-left: 3px solid var(--latao); padding: 1.5rem 1.75rem; margin-bottom: 2.5rem; border-radius: 0 2px 2px 0; }
+    .rr-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--latao); display: block; margin-bottom: 0.75rem; }
+    .resposta-rapida > p { margin-bottom: 0; font-size: 0.9375rem; color: var(--texto); line-height: 1.75; }
   </style>
 </head>
 <body>
@@ -155,6 +160,11 @@
 </div>
 
 <div class="article-body">
+<div class="resposta-rapida">
+<span class="rr-label">Resposta rápida</span>
+<p>Um mandato de exclusividade significa que apenas um consultor ou agência representa o imóvel durante o período acordado (habitualmente 3–6 meses). A diferença prática face ao mandato não-exclusivo: com exclusividade, o consultor investe em marketing pago — anúncios premium, fotografia profissional, partilha com a rede KW Portugal de mais de 2.000 consultores — porque tem retorno garantido. Sem exclusividade, vários consultores publicam o mesmo imóvel com qualidade variável, nenhum investe porque pode perder para a concorrência, e o resultado é percepção de imóvel problemático entre compradores. Em Portugal, o mandato exclusivo pode ser rescindido com aviso prévio por iniciativa do proprietário. A exclusividade não limita as opções do proprietário — concentra o esforço do consultor que tem maior interesse em fechar.</p>
+</div>
+
 
 <p>Trabalhar com múltiplos consultores não gera mais exposição — gera menos compromisso. Um consultor sem exclusividade pode investir tempo e dinheiro num imóvel que outro consultor vende amanhã, sem retorno. O incentivo económico para investir seriamente não existe. O resultado: vários anúncios de qualidade variável no mesmo portal, sem nenhum consultor verdadeiramente comprometido.</p>
 

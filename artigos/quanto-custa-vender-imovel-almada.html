@@ -132,7 +132,7 @@
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    :root { --tinta:#0E1218;--latao:#B8935A;--linho:#F2EDE4;--pedra:#D8CFBE;--branco:#FFFFFF;--texto:#2C2C2C;--suave:#6B6B6B;--gutter:clamp(1.25rem,5vw,2.5rem);--font-display:'Cormorant Garamond',Georgia,serif;--font-ui:'Outfit',sans-serif;--font-body:'Manrope',sans-serif; }
+    :root { --tinta:#0E1218;--latao:#B8935A;--linho:#F2EDE4;--pedra:#D8CFBE;--branco:#FFFFFF;--texto:#2C2C2C;--suave:#6B6B6B;--gutter:clamp(1.25rem,5vw,2.5rem);--font-display:'Cormorant Garamond',Georgia,serif;--font-ui:'Outfit',sans-serif;--font-body:'Outfit',sans-serif; }
 
     body { font-family: var(--font-body); font-size: 1.0625rem; line-height: 1.75; color: var(--texto); background: var(--branco); -webkit-font-smoothing: antialiased; }
 
@@ -372,6 +372,11 @@
     .market-table td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--pedra); color: var(--texto); vertical-align: top; }
     .market-table tr:last-child td { border-bottom: none; background: var(--linho); font-weight: 600; }
     .market-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--latao); margin: 2rem 0 0.75rem; display: block; }
+  
+    /* Resposta rapida */
+    .resposta-rapida { background: var(--linho); border-left: 3px solid var(--latao); padding: 1.5rem 1.75rem; margin-bottom: 2.5rem; border-radius: 0 2px 2px 0; }
+    .rr-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--latao); display: block; margin-bottom: 0.75rem; }
+    .resposta-rapida > p { margin-bottom: 0; font-size: 0.9375rem; color: var(--texto); line-height: 1.75; }
   </style>
 
 </head>
@@ -434,6 +439,11 @@
 
 
 <div class="article-body">
+<div class="resposta-rapida">
+<span class="rr-label">Resposta rápida</span>
+<p>Vender um imóvel em Almada implica custos obrigatórios que reduzem o valor líquido recebido: certificado energético (150–350 €), imposto sobre mais-valias (28% do ganho tributável, com isenção de reinvestimento em habitação própria permanente), comissão de amortização antecipada do crédito se aplicável (0,5% em taxa variável) e honorários de mediação imobiliária (3–5% do valor de venda). Num imóvel vendido por 220.000 € em Almada, os custos totais podem representar entre 10.000 e 18.000 € dependendo do tempo de posse, valor de aquisição e tipo de mandato. Conhecer estes valores antes de negociar permite definir o preço mínimo aceitável com rigor e evitar surpresas na escritura.</p>
+</div>
+
 
 
 

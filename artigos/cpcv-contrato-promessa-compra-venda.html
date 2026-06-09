@@ -32,7 +32,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root { --tinta:#0E1218;--latao:#B8935A;--linho:#F2EDE4;--pedra:#D8CFBE;--branco:#FFFFFF;--texto:#2C2C2C;--suave:#6B6B6B;--gutter:clamp(1.25rem,5vw,2.5rem);--font-display:'Cormorant Garamond',Georgia,serif;--font-ui:'Outfit',sans-serif;--font-body:'Manrope',sans-serif; }
+    :root { --tinta:#0E1218;--latao:#B8935A;--linho:#F2EDE4;--pedra:#D8CFBE;--branco:#FFFFFF;--texto:#2C2C2C;--suave:#6B6B6B;--gutter:clamp(1.25rem,5vw,2.5rem);--font-display:'Cormorant Garamond',Georgia,serif;--font-ui:'Outfit',sans-serif;--font-body:'Outfit',sans-serif; }
     body { font-family: var(--font-body); font-size: 1.0625rem; line-height: 1.75; color: var(--texto); background: var(--branco); -webkit-font-smoothing: antialiased; padding-top: 72px; }
     a { color: var(--latao); text-decoration: none; } a:hover { text-decoration: underline; }
     .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--tinta); padding: 1.25rem var(--gutter); display: flex; align-items: center; justify-content: space-between; }
@@ -111,6 +111,11 @@
     .mobile-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--tinta); border-top: 1px solid rgba(255,255,255,0.1); padding: 0.875rem 1.5rem; z-index: 50; }
     .mobile-cta a { display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: var(--latao); color: white; font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 500; padding: 0.875rem; border-radius: 2px; text-decoration: none; }
     @media (max-width: 768px) { .mobile-cta { display: block; } body { padding-bottom: 4.5rem; } }
+  
+    /* Resposta rapida */
+    .resposta-rapida { background: var(--linho); border-left: 3px solid var(--latao); padding: 1.5rem 1.75rem; margin-bottom: 2.5rem; border-radius: 0 2px 2px 0; }
+    .rr-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--latao); display: block; margin-bottom: 0.75rem; }
+    .resposta-rapida > p { margin-bottom: 0; font-size: 0.9375rem; color: var(--texto); line-height: 1.75; }
   </style>
 </head>
 <body>
@@ -155,6 +160,11 @@
 </div>
 
 <div class="article-body">
+<div class="resposta-rapida">
+<span class="rr-label">Resposta rápida</span>
+<p>O CPCV — Contrato Promessa de Compra e Venda — é o documento que vincula comprador e vendedor antes da escritura definitiva. Define: preço total e valor do sinal (habitualmente 10–30%), prazo limite para escritura, condições suspensivas (aprovação de crédito, resolução de situação jurídica) e consequências do incumprimento — perda do sinal pelo comprador ou pagamento em dobro pelo vendedor (art. 442 do Código Civil). O CPCV deve ter reconhecimento notarial e ser registado na Conservatória para protecção perante terceiros. Antes de assinar, verificar: certidão predial actualizada (sem ónus, penhoras ou hipotecas não declaradas), caderneta predial, certificado energético e ficha técnica de habitação. Uma cláusula ambígua pode ter consequências legais e financeiras significativas — o CPCV não é uma declaração de intenções: é um contrato com força legal imediata.</p>
+</div>
+
 
 <p>O CPCV — Contrato Promessa de Compra e Venda — é o documento mais crítico de uma transação imobiliária. Define o preço acordado, o valor do sinal, o prazo para escritura, as condições de entrega e as consequências legais se qualquer das partes não cumprir. É assinado semanas ou meses antes da escritura — e vincula ambas as partes a partir do momento em que é assinado.</p>
 

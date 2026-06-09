@@ -32,7 +32,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root { --tinta:#0E1218;--latao:#B8935A;--linho:#F2EDE4;--pedra:#D8CFBE;--branco:#FFFFFF;--texto:#2C2C2C;--suave:#6B6B6B;--gutter:clamp(1.25rem,5vw,2.5rem);--font-display:'Cormorant Garamond',Georgia,serif;--font-ui:'Outfit',sans-serif;--font-body:'Manrope',sans-serif; }
+    :root { --tinta:#0E1218;--latao:#B8935A;--linho:#F2EDE4;--pedra:#D8CFBE;--branco:#FFFFFF;--texto:#2C2C2C;--suave:#6B6B6B;--gutter:clamp(1.25rem,5vw,2.5rem);--font-display:'Cormorant Garamond',Georgia,serif;--font-ui:'Outfit',sans-serif;--font-body:'Outfit',sans-serif; }
     body { font-family: var(--font-body); font-size: 1.0625rem; line-height: 1.75; color: var(--texto); background: var(--branco); -webkit-font-smoothing: antialiased; padding-top: 72px; }
     a { color: var(--latao); text-decoration: none; } a:hover { text-decoration: underline; }
     .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--tinta); padding: 1.25rem var(--gutter); display: flex; align-items: center; justify-content: space-between; }
@@ -114,6 +114,11 @@
     .mobile-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--tinta); border-top: 1px solid rgba(255,255,255,0.1); padding: 0.875rem 1.5rem; z-index: 50; }
     .mobile-cta a { display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: var(--latao); color: white; font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 500; padding: 0.875rem; border-radius: 2px; text-decoration: none; }
     @media (max-width: 768px) { .mobile-cta { display: block; } body { padding-bottom: 4.5rem; } }
+  
+    /* Resposta rapida */
+    .resposta-rapida { background: var(--linho); border-left: 3px solid var(--latao); padding: 1.5rem 1.75rem; margin-bottom: 2.5rem; border-radius: 0 2px 2px 0; }
+    .rr-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--latao); display: block; margin-bottom: 0.75rem; }
+    .resposta-rapida > p { margin-bottom: 0; font-size: 0.9375rem; color: var(--texto); line-height: 1.75; }
   </style>
 </head>
 <body>
@@ -152,6 +157,11 @@
 </div>
 
 <div class="article-body">
+<div class="resposta-rapida">
+<span class="rr-label">Quick Answer</span>
+<p>Foreigners can buy property in Portugal with no legal restrictions on nationality or quantity. The purchase process has four stages: (1) obtain a Portuguese NIF tax number at Finanças or the Portuguese consulate in your country; (2) sign a CPCV promissory contract with a 10–30% deposit; (3) arrange financing if needed — non-residents can access mortgages at 60–75% LTV; (4) complete the purchase at a notary (escritura). Additional costs to budget: IMT transfer tax (0–8% depending on value and property type), 0.8% stamp duty, and notary fees (600–1,200 €). In Almada, prices range from 90,000 € for a studio in secondary locations to 400,000 € for houses near the coast. Total buying costs typically add 6–9% to the agreed price. The full process from accepted offer to keys takes 6–12 weeks.</p>
+</div>
+
 
 <p>Foreigners can buy property in Portugal with no legal restrictions. There are no nationality requirements, no ownership limits and no special permits. What there is — and what surprises many international buyers — is a structured legal process that differs from what most Europeans, Americans and Brazilians are familiar with, and a set of costs that must be calculated before, not after, agreeing a price.</p>
 

@@ -30,7 +30,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root { --tinta:#0E1218;--latao:#B8935A;--linho:#F2EDE4;--pedra:#D8CFBE;--branco:#FFFFFF;--texto:#2C2C2C;--suave:#6B6B6B;--gutter:clamp(1.25rem,5vw,2.5rem);--font-display:'Cormorant Garamond',Georgia,serif;--font-ui:'Outfit',sans-serif;--font-body:'Manrope',sans-serif; }
+    :root { --tinta:#0E1218;--latao:#B8935A;--linho:#F2EDE4;--pedra:#D8CFBE;--branco:#FFFFFF;--texto:#2C2C2C;--suave:#6B6B6B;--gutter:clamp(1.25rem,5vw,2.5rem);--font-display:'Cormorant Garamond',Georgia,serif;--font-ui:'Outfit',sans-serif;--font-body:'Outfit',sans-serif; }
     body { font-family: var(--font-body); font-size: 1.0625rem; line-height: 1.75; color: var(--texto); background: var(--branco); -webkit-font-smoothing: antialiased; padding-top: 72px; }
     a { color: var(--latao); text-decoration: none; } a:hover { text-decoration: underline; }
     .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--tinta); padding: 1.25rem var(--gutter); display: flex; align-items: center; justify-content: space-between; }
@@ -113,6 +113,11 @@
     .mobile-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--tinta); border-top: 1px solid rgba(255,255,255,0.1); padding: 0.875rem 1.5rem; z-index: 50; }
     .mobile-cta a { display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: var(--latao); color: white; font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 500; padding: 0.875rem; border-radius: 2px; text-decoration: none; }
     @media (max-width: 768px) { .mobile-cta { display: block; } body { padding-bottom: 4.5rem; } }
+  
+    /* Resposta rapida */
+    .resposta-rapida { background: var(--linho); border-left: 3px solid var(--latao); padding: 1.5rem 1.75rem; margin-bottom: 2.5rem; border-radius: 0 2px 2px 0; }
+    .rr-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--latao); display: block; margin-bottom: 0.75rem; }
+    .resposta-rapida > p { margin-bottom: 0; font-size: 0.9375rem; color: var(--texto); line-height: 1.75; }
   </style>
 </head>
 <body>
@@ -153,6 +158,11 @@
   </div>
 </div>
 <div class="article-body">
+<div class="resposta-rapida">
+<span class="rr-label">Resposta rápida</span>
+<p>As zonas da AML com maior potencial de valorização imobiliária identificado em 2026 têm um factor em comum: infraestrutura a melhorar antes de o mercado reflectir esse valor no preço. O corredor Alcochete–Montijo mantém expectativa de médio prazo ligada ao futuro aeroporto. Em Almada, a regeneração de Cacilhas, o prolongamento do MST e o investimento em mobilidade suave sustentam valorização acima da média regional. Loures e Odivelas beneficiam das extensões do Metro em curso. Seixal e Corroios crescem demograficamente com pressão positiva sobre preços. Os indicadores a monitorizar: projectos de infraestrutura com financiamento aprovado, novas licenças em zonas degradadas e chegada de comércio e serviços a bairros anteriormente periféricos. Almada apresentou valorização média de 8–12% anuais nos últimos 3 anos.</p>
+</div>
+
 <p>As zonas da AML com maior potencial de valorização identificado em 2026 são: o corredor Alcochete-Montijo (futuro aeroporto), Loures e Odivelas (extensões do Metro), Cacilhas e Almada cidade (regeneração urbana + ferry), e o eixo Seixal-Corroios (Fertagus + crescimento demográfico). Potencial de valorização não é garantia — é probabilidade baseada em factores mensuráveis. Este artigo descreve esses factores e o que os pode inverter.</p>
 
 <div class="callout"><p><strong>Nota editorial (Junho 2026):</strong> Os dados de infra-estruturas referidos neste artigo reflectem o estado do planeamento e aprovações à data de publicação. Projectos de infra-estrutura em Portugal têm histórico de atrasos. Qualquer decisão de investimento baseada em infra-estruturas previstas deve considerar o risco de atraso ou alteração do projecto.</p></div>

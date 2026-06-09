@@ -30,7 +30,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root { --tinta:#0E1218;--latao:#B8935A;--linho:#F2EDE4;--pedra:#D8CFBE;--branco:#FFFFFF;--texto:#2C2C2C;--suave:#6B6B6B;--gutter:clamp(1.25rem,5vw,2.5rem);--font-display:'Cormorant Garamond',Georgia,serif;--font-ui:'Outfit',sans-serif;--font-body:'Manrope',sans-serif; }
+    :root { --tinta:#0E1218;--latao:#B8935A;--linho:#F2EDE4;--pedra:#D8CFBE;--branco:#FFFFFF;--texto:#2C2C2C;--suave:#6B6B6B;--gutter:clamp(1.25rem,5vw,2.5rem);--font-display:'Cormorant Garamond',Georgia,serif;--font-ui:'Outfit',sans-serif;--font-body:'Outfit',sans-serif; }
     body { font-family: var(--font-body); font-size: 1.0625rem; line-height: 1.75; color: var(--texto); background: var(--branco); -webkit-font-smoothing: antialiased; padding-top: 72px; }
     a { color: var(--latao); text-decoration: none; } a:hover { text-decoration: underline; }
     .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--tinta); padding: 1.25rem var(--gutter); display: flex; align-items: center; justify-content: space-between; }
@@ -113,6 +113,11 @@
     .mobile-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--tinta); border-top: 1px solid rgba(255,255,255,0.1); padding: 0.875rem 1.5rem; z-index: 50; }
     .mobile-cta a { display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: var(--latao); color: white; font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 500; padding: 0.875rem; border-radius: 2px; text-decoration: none; }
     @media (max-width: 768px) { .mobile-cta { display: block; } body { padding-bottom: 4.5rem; } }
+  
+    /* Resposta rapida */
+    .resposta-rapida { background: var(--linho); border-left: 3px solid var(--latao); padding: 1.5rem 1.75rem; margin-bottom: 2.5rem; border-radius: 0 2px 2px 0; }
+    .rr-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--latao); display: block; margin-bottom: 0.75rem; }
+    .resposta-rapida > p { margin-bottom: 0; font-size: 0.9375rem; color: var(--texto); line-height: 1.75; }
   </style>
 </head>
 <body>
@@ -153,6 +158,11 @@
   </div>
 </div>
 <div class="article-body">
+<div class="resposta-rapida">
+<span class="rr-label">Resposta rápida</span>
+<p>As zonas da AML mais procuradas por famílias com crianças em 2026 combinam oferta escolar de qualidade, espaços verdes, segurança e acesso a Lisboa. Oeiras e Cascais lideram em prestígio e oferta internacional, com preços entre 3.500–6.000 €/m². Sintra e Odivelas oferecem boa relação preço-espaço com transporte ferroviário directo a Lisboa. Na margem sul, a Charneca de Caparica destaca-se pela qualidade de vida, proximidade à praia, menor densidade urbana e preços entre 1.800–2.800 €/m² — com acesso a Lisboa em 20–30 minutos. Para famílias que procuram espaço, jardim e escola pública de qualidade sem o custo da margem norte, Almada e Seixal são as opções com melhor relação custo-benefício actualmente disponíveis na AML.</p>
+</div>
+
 <p>As zonas da AML mais procuradas por famílias com crianças em 2026 são Oeiras, Cascais, Sintra (zonas suburbanas), Charneca de Caparica e Mafra. A escolha depende de quatro variáveis: qualidade das escolas, segurança, espaços verdes e praias, e preço. Oeiras e Cascais lideram em oferta internacional e prestígio; Charneca de Caparica e Mafra oferecem a melhor relação preço-qualidade de vida.</p>
 
 <h2>Comparação das principais zonas para famílias</h2>
