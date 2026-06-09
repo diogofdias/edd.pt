@@ -287,7 +287,7 @@
 
     .mobile-cta a { display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: var(--latao); color: white; font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 500; padding: 0.875rem; border-radius: 2px; }
 
-    @media(max-width:768px){.mobile-cta{display:block;}body{padding-bottom:4.5rem;}}
+    @media(max-width:1024px){.nav-cta{display:none;}.mobile-cta{display:block;}body{padding-bottom:4.5rem;}}
 
 
 
@@ -777,6 +777,15 @@
 
 
 
+<script>
+  var _t = document.getElementById('navToggle');
+  var _m = document.getElementById('mobileMenu');
+  var _c = document.getElementById('mobileClose');
+  if (_t && _m && _c) {
+    _t.addEventListener('click', function(){ _m.classList.add('open'); });
+    _c.addEventListener('click', function(){ _m.classList.remove('open'); });
+  }
+</script>
 <script src="/assets/cookie-consent.js"></script>
 </body>
 

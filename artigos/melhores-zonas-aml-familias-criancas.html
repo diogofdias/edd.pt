@@ -133,7 +133,7 @@
     @media (max-width: 768px) { .footer-inner { grid-template-columns: 1fr; gap: 2rem; } }
     .mobile-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--tinta); border-top: 1px solid rgba(255,255,255,0.1); padding: 0.875rem 1.5rem; z-index: 50; }
     .mobile-cta a { display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: var(--latao); color: white; font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 500; padding: 0.875rem; border-radius: 2px; text-decoration: none; }
-    @media (max-width: 768px) { .mobile-cta { display: block; } body { padding-bottom: 4.5rem; } }
+    @media (max-width: 1024px) { .nav-cta { display: none; } .mobile-cta { display: block; } body { padding-bottom: 4.5rem; } }
   
     /* Resposta rapida */
     .resposta-rapida { background: var(--linho); border-left: 3px solid var(--latao); padding: 1.5rem 1.75rem; margin-bottom: 2.5rem; border-radius: 0 2px 2px 0; }
@@ -326,6 +326,15 @@
       m.querySelectorAll('a').forEach(a => a.addEventListener('click', () => m.classList.remove('open')));
     }
   </script>
+<script>
+  var _t = document.getElementById('navToggle');
+  var _m = document.getElementById('mobileMenu');
+  var _c = document.getElementById('mobileClose');
+  if (_t && _m && _c) {
+    _t.addEventListener('click', function(){ _m.classList.add('open'); });
+    _c.addEventListener('click', function(){ _m.classList.remove('open'); });
+  }
+</script>
 <script src="/assets/cookie-consent.js"></script>
 </body>
 </html>
