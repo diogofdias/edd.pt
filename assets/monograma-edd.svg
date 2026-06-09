@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" fill="none">
+  <!-- Three horizontal bars (≡ stylized E) -->
+  <rect x="8" y="20" width="36" height="10" fill="white"/>
+  <rect x="8" y="55" width="36" height="10" fill="white"/>
+  <rect x="8" y="90" width="36" height="10" fill="white"/>
+  <!-- DD -->
+  <text x="58" y="105" font-family="Outfit, sans-serif" font-weight="700" font-size="90" fill="white" letter-spacing="-2">DD</text>
+</svg>

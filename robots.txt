@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /.env
+Disallow: /.env.example
+Disallow: /update_reviews.py
+
+Sitemap: https://edd.pt/sitemap.xml
