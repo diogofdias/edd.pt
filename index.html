@@ -26,114 +26,134 @@
 
   <!-- Schema JSON-LD -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "RealEstateAgent",
-    "@id": "https://edd.pt/#organization",
-    "name": "Equipa Diogo Dias",
-    "alternateName": "EDD",
-    "description": "Consultoria imobiliária especializada na venda de imóveis na Área Metropolitana de Lisboa. Método documentado, avaliação rigorosa, transparência total.",
-    "url": "https://edd.pt",
-    "telephone": "+351 963 399 343",
-    "email": "diogo.dias@kwportugal.pt",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Rua Rui Furtado, 12B",
-      "addressLocality": "Charneca de Caparica",
-      "addressRegion": "Almada",
-      "postalCode": "2820-235",
-      "addressCountry": "PT"
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "@id": "https://edd.pt/#organization",
+  "name": "Equipa Diogo Dias",
+  "alternateName": "EDD",
+  "description": "Consultoria imobiliária especializada na venda de imóveis na Área Metropolitana de Lisboa. Método documentado, avaliação rigorosa, transparência total.",
+  "url": "https://edd.pt",
+  "telephone": "+351 963 399 343",
+  "email": "diogo.dias@kwportugal.pt",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Rui Furtado, 12B",
+    "addressLocality": "Charneca de Caparica",
+    "addressRegion": "Almada",
+    "postalCode": "2820-235",
+    "addressCountry": "PT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.6279,
+    "longitude": -9.1987
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Almada"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 38.6279,
-      "longitude": -9.1987
+    {
+      "@type": "City",
+      "name": "Seixal"
     },
-    "areaServed": [
-      {"@type": "City", "name": "Almada"},
-      {"@type": "City", "name": "Seixal"},
-      {"@type": "City", "name": "Setúbal"},
-      {"@type": "City", "name": "Sesimbra"},
-      {"@type": "AdministrativeArea", "name": "Área Metropolitana de Lisboa"}
-    ],
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-        "opens": "08:30",
-        "closes": "20:30"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "09:30",
-        "closes": "12:30"
-      }
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Diogo Dias",
-      "jobTitle": "Consultor Imobiliário",
-      "description": "Engenheiro civil com 16 anos em gestão de projetos de construção. Consultor imobiliário na AML desde 2019.",
-      "hasCredential": {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "AMI 24232"
-      }
+    {
+      "@type": "City",
+      "name": "Setúbal"
     },
-    "image": "https://edd.pt/assets/og-edd.webp",
-    "priceRange": "€€",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "9",
-      "bestRating": "5"
+    {
+      "@type": "City",
+      "name": "Sesimbra"
     },
-    "sameAs": [
-      "https://www.kwportugal.pt/pt/agente/Diogo-Dias/40217",
-      "https://www.instagram.com/equipadiogodias",
-      "https://www.facebook.com/Diogo.DiasConsultor",
-      "https://www.linkedin.com/in/diogodias-consultorimobilario/",
-      "https://www.youtube.com/@edd_equipa_diogo_dias"
-    ]
-  }
-  </script>
-
-  <!-- Person Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
+    {
+      "@type": "AdministrativeArea",
+      "name": "Área Metropolitana de Lisboa"
+    }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:30",
+      "closes": "20:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:30",
+      "closes": "12:30"
+    }
+  ],
+  "founder": {
     "@type": "Person",
-    "@id": "https://edd.pt/#person-diogo-dias",
     "name": "Diogo Dias",
     "jobTitle": "Consultor Imobiliário",
-    "description": "Engenheiro civil com 16 anos de experiência em gestão de projetos de construção. Consultor imobiliário na Área Metropolitana de Lisboa desde 2019, especializado na venda de imóveis em Almada.",
-    "url": "https://edd.pt",
-    "telephone": "+351963399343",
-    "email": "diogo.dias@kwportugal.pt",
-    "image": "https://edd.pt/assets/og-edd.webp",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Rua Rui Furtado, 12B",
-      "addressLocality": "Charneca de Caparica",
-      "addressRegion": "Almada",
-      "postalCode": "2820-235",
-      "addressCountry": "PT"
-    },
+    "description": "Engenheiro civil com 16 anos em gestão de projetos de construção. Consultor imobiliário na AML desde 2019.",
     "hasCredential": {
       "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Licença AMI 24232"
-    },
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Equipa Diogo Dias",
-      "url": "https://edd.pt"
-    },
-    "sameAs": [
-      "https://www.linkedin.com/in/diogodias-consultorimobilario/",
-      "https://www.instagram.com/equipadiogodias",
-      "https://www.facebook.com/Diogo.DiasConsultor",
-      "https://www.youtube.com/@edd_equipa_diogo_dias",
-      "https://www.kwportugal.pt/pt/agente/Diogo-Dias/40217"
+      "credentialCategory": "AMI 24232"
+    }
+  },
+  "image": "https://edd.pt/assets/og-edd.webp",
+  "priceRange": "€€",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "9",
+    "bestRating": "5"
+  },
+  "sameAs": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJSbPLzk01GQ0RGSxYwberDNo",
+    "https://www.kwportugal.pt/pt/agente/Diogo-Dias/40217",
+    "https://www.instagram.com/equipadiogodias",
+    "https://www.facebook.com/Diogo.DiasConsultor",
+    "https://www.linkedin.com/in/diogodias-consultorimobilario/",
+    "https://www<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://edd.pt/#person-diogo-dias",
+  "name": "Diogo Dias",
+  "jobTitle": "Consultor Imobiliário",
+  "description": "Engenheiro civil com 16 anos de experiência em gestão de projetos de construção. Consultor imobiliário na Área Metropolitana de Lisboa desde 2019, especializado na venda de imóveis em Almada.",
+  "url": "https://edd.pt",
+  "telephone": "+351963399343",
+  "email": "diogo.dias@kwportugal.pt",
+  "image": "https://edd.pt/assets/og-edd.webp",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Rui Furtado, 12B",
+    "addressLocality": "Charneca de Caparica",
+    "addressRegion": "Almada",
+    "postalCode": "2820-235",
+    "addressCountry": "PT"
+  },
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "Licença AMI 24232"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Equipa Diogo Dias",
+    "url": "https://edd.pt"
+  },
+  "sameAs": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJSbPLzk01GQ0RGSxYwberDNo",
+    "https://www.linkedin.com/in/diogodias-consultorimobilario/",
+    "https://www.instagram.com/equipadiogodias",
+    "https://www.facebook.com/Diogo.DiasConsultor",
+    "https://www.youtube.com/@edd_equipa_diogo_dias",
+    "https://www.kwportugal.pt/pt/agente/Diogo-Dias/40217"
+  ]
+}
+</script>     "https://www.kwportugal.pt/pt/agente/Diogo-Dias/40217"
     ]
   }
   </script>
