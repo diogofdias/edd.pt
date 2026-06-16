@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Termos e Condições | Equipa Diogo Dias</title>
+  <meta name="description" content="Termos e Condições de utilização do website e dos serviços de mediação imobiliária da Equipa Diogo Dias. AMI 24232.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://edd.pt/termos-e-condicoes.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="/assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --tinta: #0E1218; --latao: #B8935A; --linho: #F2EDE4; --pedra: #D8CFBE;
+      --branco: #FFFFFF;
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-ui: 'Outfit', sans-serif;
+      --font-body: 'Outfit', sans-serif;
+      --gutter: clamp(1.25rem, 5vw, 2.5rem);
+    }
+
+    body { font-family: var(--font-body); font-size: 1rem; line-height: 1.7; color: #2C2C2C; background: var(--linho); -webkit-font-smoothing: antialiased; }
+
+    a { color: var(--latao); }
+
+    .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--tinta); padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+
+    body { padding-top: 72px; }
+
+    .nav-logo { font-family: var(--font-ui); font-weight: 600; font-size: 0.9375rem; letter-spacing: 0.12em; color: #fff; }
+
+    .nav-logo span { color: var(--latao); }
+
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+
+    .nav-links a { font-family: var(--font-ui); font-size: 0.8125rem; color: rgba(255,255,255,0.6); transition: color 0.2s; }
+
+    .nav-links a:hover { color: var(--latao); }
+
+    .nav-toggle { display: none; flex-direction: column; justify-content: center; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; width: 36px; height: 36px; }
+    .nav-toggle span { display: block; width: 22px; height: 2px; background: #fff; border-radius: 2px; }
+
+    .mobile-menu { display: none; }
+
+    .mobile-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--tinta); border-top: 1px solid rgba(255,255,255,0.1); padding: 0.875rem 1.5rem; z-index: 50; }
+    .mobile-cta a { display: flex; align-items: center; justify-content: center; background: var(--latao); color: white; font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 500; padding: 0.875rem; border-radius: 2px; }
+
+    @media (max-width: 1024px) {
+      .nav-cta { display: none; }
+      .mobile-cta { display: block; }
+      body { padding-bottom: 4.5rem; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .nav-toggle { display: flex; }
+      .mobile-menu { position: fixed; inset: 0; background: var(--tinta); z-index: 101; flex-direction: column; align-items: center; justify-content: center; gap: 2rem; }
+      .mobile-menu.open { display: flex; }
+      .mobile-menu a { font-family: var(--font-display, 'Georgia', serif); font-size: 2rem; font-weight: 300; color: #fff; letter-spacing: 0.04em; text-decoration: none; }
+      .mobile-menu a:hover { color: var(--latao); }
+      .mobile-close { position: absolute; top: 1.5rem; right: 1.5rem; background: none; border: none; color: #fff; font-size: 1.75rem; cursor: pointer; line-height: 1; }
+    }
+
+    .page-hero { background: var(--tinta); padding: 4rem 2rem 3rem; }
+    .page-hero h1 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 300; color: #fff; }
+    .page-hero p { font-family: var(--font-ui); font-size: 0.8125rem; color: rgba(255,255,255,0.4); margin-top: 0.5rem; letter-spacing: 0.06em; }
+
+    .content { max-width: 720px; margin: 0 auto; padding: 3rem 2rem 5rem; }
+    h2 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 300; color: var(--tinta); margin: 2.5rem 0 0.75rem; }
+    h3 { font-family: var(--font-ui); font-size: 1rem; font-weight: 600; color: var(--tinta); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1rem; color: #444; }
+    ul { margin: 0.75rem 0 1rem 1.5rem; color: #444; }
+    li { margin-bottom: 0.375rem; }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 var(--gutter); }
+
+    footer { background: #080B0F; padding: 3rem var(--gutter) 2rem; color: rgba(255,255,255,0.65); }
+    .footer-inner { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .footer-brand-name { font-family: var(--font-ui); font-size: 0.875rem; font-weight: 600; letter-spacing: 0.14em; color: #fff; margin-bottom: 0.75rem; }
+    .footer-tagline { font-family: var(--font-display); font-style: italic; font-size: 0.9375rem; color: rgba(255,255,255,0.65); margin-bottom: 1.25rem; }
+    .footer-contact a { display: block; font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 0.375rem; transition: color 0.2s; }
+    .footer-contact a:hover { color: var(--latao); }
+    .footer-col h4 { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 1.25rem; }
+    .footer-col a { display: block; font-size: 0.875rem; color: rgba(255,255,255,0.65); margin-bottom: 0.625rem; transition: color 0.2s; }
+    .footer-col a:hover { color: rgba(255,255,255,0.8); }
+    .footer-bottom { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer-bottom p { font-size: 0.8125rem; }
+    .footer-bottom a { color: rgba(255,255,255,0.65); transition: color 0.2s; }
+    .footer-bottom a:hover { color: var(--latao); }
+    .footer-ami { font-family: var(--font-ui); font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; color: rgba(255,255,255,0.25); }
+    .footer-rgpd { font-size: 0.75rem; color: rgba(255,255,255,0.2); margin-top: 0.5rem; }
+    @media (max-width: 768px) { .footer-inner { grid-template-columns: 1fr; gap: 2rem; } }
+  </style>
+  <script src="/assets/analytics.js"></script>
+</head>
+<body>
+
+  <nav class="nav" id="mainNav">
+    <a href="/" class="nav-logo"><img src="/assets/logo-negativo.svg" alt="Equipa Diogo Dias" height="36"></a>
+    <ul class="nav-links">
+      <li><a href="/#servicos">Serviços</a></li>
+      <li><a href="/#processo">Processo</a></li>
+      <li><a href="/#area">Área</a></li>
+      <li><a href="/sobre.html">Sobre</a></li>
+      <li><a href="/artigos.html">Artigos</a></li>
+      <li><a href="/contacto.html">Contacto</a></li>
+      <li><a href="/#faq">FAQs</a></li>
+    </ul>
+    <a href="tel:+351963399343" class="nav-cta">963 399 343</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose" aria-label="Fechar menu">&times;</button>
+    <a href="/#servicos">Serviços</a>
+    <a href="/#processo">Processo</a>
+    <a href="/#area">Área</a>
+    <a href="/sobre.html">Sobre</a>
+    <a href="/artigos.html">Artigos</a>
+    <a href="/contacto.html">Contacto</a>
+    <a href="/#faq">FAQs</a>
+  </div>
+
+  <div class="page-hero">
+    <h1>Termos e Condições</h1>
+    <p>Última actualização: Junho 2026</p>
+  </div>
+
+  <div class="content">
+
+    <h2>1. Identificação do Responsável</h2>
+    <p>O presente website <strong>edd.pt</strong> é propriedade e gerido pela <strong>Equipa Diogo Dias</strong>, representada por Diogo Dias, consultor imobiliário com licença AMI 24232, integrado na rede KW Portugal.</p>
+    <ul>
+      <li><strong>Morada:</strong> Rua Rui Furtado, 12B, 2820-235 Charneca de Caparica, Almada</li>
+      <li><strong>Telefone:</strong> +351 963 399 343</li>
+      <li><strong>Email:</strong> diogo.dias@kwportugal.pt</li>
+      <li><strong>Licença AMI:</strong> 24232</li>
+    </ul>
+
+    <h2>2. Objecto</h2>
+    <p>Os presentes Termos e Condições regulam a utilização do website edd.pt e dos serviços de mediação imobiliária prestados pela Equipa Diogo Dias. Ao aceder e utilizar este website, o utilizador aceita estes termos na sua totalidade.</p>
+
+    <h2>3. Utilização do Website</h2>
+    <p>O utilizador compromete-se a utilizar o website de forma lícita e a não praticar quaisquer actos que possam prejudicar, danificar ou sobrecarregar o website ou os seus sistemas.</p>
+    <p>É proibida a reprodução, distribuição ou utilização do conteúdo deste website para fins comerciais sem autorização prévia e escrita da Equipa Diogo Dias.</p>
+
+    <h2>4. Serviços de Mediação Imobiliária</h2>
+    <p>A Equipa Diogo Dias presta serviços de mediação imobiliária ao abrigo da licença AMI 24232, emitida pelo IMPIC — Instituto dos Mercados Públicos, do Imobiliário e da Construção, I.P.</p>
+    <p>Os serviços incluem:</p>
+    <ul>
+      <li>Diagnóstico e avaliação de imóvel</li>
+      <li>Estratégia de promoção e venda</li>
+      <li>Mediação na compra e venda de imóveis</li>
+      <li>Apoio em processos de troca de habitação</li>
+      <li>Análise de oportunidades de investimento imobiliário</li>
+    </ul>
+    <p>As condições específicas de cada serviço, incluindo honorários, são apresentadas e acordadas por escrito antes de qualquer compromisso.</p>
+
+    <h2>5. Informações e Conteúdos</h2>
+    <p>As informações publicadas neste website têm carácter meramente informativo e não constituem aconselhamento jurídico, fiscal ou financeiro. Para decisões com impacto legal ou financeiro, recomenda-se a consulta de profissionais especializados.</p>
+    <p>A Equipa Diogo Dias esforça-se por manter a informação actualizada e rigorosa, mas não garante a exactidão, integridade ou actualidade de todos os conteúdos.</p>
+
+    <h2>6. Limitação de Responsabilidade</h2>
+    <p>A Equipa Diogo Dias não se responsabiliza por danos directos ou indirectos resultantes da utilização do website ou da impossibilidade de acesso ao mesmo, salvo nos casos em que tal responsabilidade seja legalmente imputável.</p>
+
+    <h2>7. Propriedade Intelectual</h2>
+    <p>Todo o conteúdo deste website — incluindo textos, imagens, logótipos, design e estrutura — é propriedade da Equipa Diogo Dias ou de terceiros que cederam autorização para o seu uso. É proibida a reprodução sem autorização.</p>
+
+    <h2>8. Links Externos</h2>
+    <p>Este website pode conter ligações para websites de terceiros. A Equipa Diogo Dias não é responsável pelo conteúdo ou práticas de privacidade desses websites.</p>
+
+    <h2>9. Alterações aos Termos</h2>
+    <p>A Equipa Diogo Dias reserva-se o direito de alterar estes Termos e Condições a qualquer momento. As alterações entram em vigor com a sua publicação no website. Recomenda-se a consulta periódica desta página.</p>
+
+    <h2>10. Lei Aplicável e Foro Competente</h2>
+    <p>Os presentes Termos e Condições são regulados pela lei portuguesa. Para resolução de litígios é competente o Tribunal da Comarca de Almada, com expressa renúncia a qualquer outro.</p>
+    <p>Em alternativa, o utilizador pode recorrer ao Centro de Arbitragem de Conflitos de Consumo — <a href="https://www.centroarbitragem.pt" target="_blank" rel="noopener">centroarbitragem.pt</a>.</p>
+
+    <h2>11. Contacto</h2>
+    <p>Para quaisquer questões relacionadas com estes Termos e Condições, contacte-nos através de:</p>
+    <ul>
+      <li>Email: <a href="mailto:diogo.dias@kwportugal.pt">diogo.dias@kwportugal.pt</a></li>
+      <li>Telefone: <a href="tel:+351963399343">+351 963 399 343</a></li>
+    </ul>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <a href="/"><img src="/assets/logo-negativo.svg" alt="Equipa Diogo Dias" height="32" style="margin-bottom:0.75rem;display:block;" loading="lazy"></a>
+          <p class="footer-tagline">&ldquo;Criamos relações de confiança.&rdquo;</p>
+          <div class="footer-contact">
+            <a href="tel:+351963399343">+351 963 399 343</a>
+            <a href="mailto:diogo.dias@kwportugal.pt">diogo.dias@kwportugal.pt</a>
+            <a href="https://www.instagram.com/equipadiogodias" target="_blank" rel="noopener">@equipadiogodias</a>
+          </div>
+          <p class="footer-rgpd">Rua Rui Furtado, 12B &middot; 2820-235 Charneca de Caparica &middot; Almada</p>
+        </div>
+        <div class="footer-col">
+          <h4>Serviços</h4>
+          <a href="/servicos/diagnostico-venda-almada.html">Diagnóstico de Venda</a>
+          <a href="/servicos/avaliacao-imovel-almada.html">Avaliação de Imóvel</a>
+          <a href="/servicos/venda-apartamento-almada.html">Venda de Apartamento</a>
+          <a href="/servicos/venda-moradia-almada.html">Venda de Moradia</a>
+          <a href="/servicos/troca-casa-almada.html">Troca de Casa</a>
+          <a href="/servicos/investimento-imobiliario-almada.html">Investimento Imobiliário</a>
+          <a href="/sobre.html">Sobre Diogo Dias</a>
+          <a href="/artigos.html">Artigos</a>
+          <a href="/contacto.html">Contacto</a>
+        </div>
+        <div class="footer-col">
+          <h4>Zonas onde trabalhamos</h4>
+          <a href="/zonas/consultor-imobiliario-almada.html">Almada</a>
+          <a href="/zonas/consultor-imobiliario-barreiro.html">Barreiro</a>
+          <a href="/zonas/consultor-imobiliario-cascais.html">Cascais</a>
+          <a href="/zonas/consultor-imobiliario-lisboa.html">Lisboa</a>
+          <a href="/zonas/consultor-imobiliario-palmela.html">Palmela</a>
+          <a href="/zonas/consultor-imobiliario-seixal.html">Seixal</a>
+          <a href="/zonas/consultor-imobiliario-sesimbra.html">Sesimbra</a>
+          <a href="/zonas/consultor-imobiliario-setubal.html">Setúbal</a>
+          <a href="/zonas/consultor-imobiliario-sintra.html">Sintra</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Equipa Diogo Dias &middot; <a href="/politica-privacidade.html">Política de Privacidade</a> &middot; <a href="/termos-e-condicoes.html">Termos e Condições</a></p>
+        <p class="footer-ami">AMI 24232 &middot; KW Portugal</p>
+      </div>
+      <p class="footer-rgpd" style="margin-top: 0.75rem;">Este site destina-se exclusivamente à promoção dos serviços de mediação imobiliária da Equipa Diogo Dias, licença AMI 24232, integrada na rede KW Portugal.</p>
+    </div>
+  </footer>
+
+  <div class="mobile-cta">
+    <a href="tel:+351963399343">Ligar · 963 399 343</a>
+  </div>
+
+  <script src="/assets/cookie-consent.js"></script>
+  <script src="/assets/analytics.js"></script>
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const menu = document.getElementById('mobileMenu');
+    const close = document.getElementById('mobileClose');
+    if (toggle && menu && close) {
+      toggle.addEventListener('click', () => menu.classList.add('open'));
+      close.addEventListener('click', () => menu.classList.remove('open'));
+    }
+  </script>
+</body>
+</html>
