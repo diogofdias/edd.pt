@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa Vendida — Venda a sua casa sem imobiliária | Diogo Dias</title>
+  <meta name="description" content="O sistema passo a passo para vender a sua casa sozinho, com critério e segurança. Calculadoras, checklists e o método de quem já gerou 30M€ para proprietários.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://edd.pt/casa-vendida.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="/assets/favicon.svg">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Casa Vendida — Venda a sua casa sem imobiliária">
+  <meta property="og:description" content="O sistema passo a passo para vender a sua casa sozinho, com critério e segurança. Criado por um consultor imobiliário em atividade.">
+  <meta property="og:type" content="product">
+  <meta property="og:url" content="https://edd.pt/casa-vendida.html">
+  <meta property="og:locale" content="pt_PT">
+  <meta property="og:image" content="https://edd.pt/assets/og-edd.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Casa Vendida — sistema digital para vender casa sem imobiliária">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Casa Vendida — Venda a sua casa sem imobiliária">
+  <meta name="twitter:description" content="O sistema passo a passo para vender a sua casa sozinho, com critério e segurança.">
+  <meta name="twitter:image" content="https://edd.pt/assets/og-edd.webp">
+
+  <!-- Schema JSON-LD: Product -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Casa Vendida",
+    "description": "Sistema digital passo a passo para vender, comprar ou trocar de casa sem imobiliária, criado por um consultor imobiliário em atividade em Portugal.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Equipa Diogo Dias"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://edd.pt/casa-vendida.html",
+      "priceCurrency": "EUR",
+      "price": "67",
+      "availability": "https://schema.org/InStock"
+    },
+    "seller": {
+      "@id": "https://edd.pt/#organization"
+    }
+  }
+  </script>
+  <!-- Schema JSON-LD: FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Preciso de perceber de imobiliário?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Não. O sistema foi feito para quem nunca vendeu." }
+      },
+      {
+        "@type": "Question",
+        "name": "Isto substitui o advogado?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Não. Prepara-o para chegar ao contrato organizado; a assinatura do CPCV deve ser validada por um advogado ou solicitador." }
+      },
+      {
+        "@type": "Question",
+        "name": "Funciona em todo o país?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Sim. O método é nacional; os dados de mercado são os da sua zona." }
+      },
+      {
+        "@type": "Question",
+        "name": "Como recebo?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Acesso imediato e digital após a compra." }
+      },
+      {
+        "@type": "Question",
+        "name": "E se precisar de ajuda a meio?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Tem o Módulo 4 e pode sempre falar comigo — e, se me contratar, o sistema é-lhe devolvido." }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Outfit:wght@200;300;400;500;600;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* ─── Reset & Base ─── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --tinta:  #0E1218;
+      --latao:  #B8935A;
+      --linho:  #F2EDE4;
+      --pedra:  #D8CFBE;
+      --branco: #FFFFFF;
+      --texto:  #2C2C2C;
+      --texto-suave: #6B6B6B;
+
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-ui:      'Outfit', sans-serif;
+      --font-body:    'Outfit', sans-serif;
+
+      --max-width: 1200px;
+      --gutter: clamp(1.25rem, 5vw, 2.5rem);
+      --section-gap: clamp(4rem, 8vw, 7rem);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      font-size: 1.0625rem;
+      line-height: 1.65;
+      color: var(--texto);
+      background: var(--branco);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      width: 100%;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 var(--gutter);
+    }
+
+    /* ─── Typography ─── */
+    h1, h2, h3 { font-family: var(--font-display); font-weight: 300; line-height: 1.15; }
+    h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); }
+    h2 { font-size: clamp(2rem, 4vw, 3rem); }
+    h3 { font-size: clamp(1.25rem, 2.5vw, 1.75rem); }
+
+    .eyebrow {
+      font-family: var(--font-ui);
+      font-size: 0.6875rem;
+      font-weight: 500;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--latao);
+    }
+
+    /* ─── Buttons ─── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--font-ui);
+      font-size: 0.875rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      padding: 0.875rem 1.75rem;
+      border-radius: 2px;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      border: none;
+    }
+    .btn-primary { background: var(--latao); color: var(--branco); }
+    .btn-primary:hover { background: #a07d4a; }
+    .btn-outline { background: transparent; color: var(--branco); border: 1px solid rgba(255,255,255,0.4); }
+    .btn-outline:hover { border-color: var(--branco); background: rgba(255,255,255,0.08); }
+    .btn-dark { background: var(--tinta); color: var(--branco); }
+    .btn-dark:hover { background: #1a2030; }
+
+    /* ─── Navigation ─── */
+    .nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 1.25rem var(--gutter);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+    }
+    .nav.scrolled { background: var(--tinta); box-shadow: 0 2px 20px rgba(0,0,0,0.3); }
+    .nav-logo { font-family: var(--font-ui); font-weight: 600; font-size: 1rem; letter-spacing: 0.12em; color: var(--branco); display: flex; align-items: center; gap: 0.5rem; }
+    .nav-logo span { color: var(--latao); }
+    .nav-links { display: flex; align-items: center; gap: 2rem; list-style: none; }
+    .nav-links a { font-family: var(--font-ui); font-size: 0.8125rem; font-weight: 400; letter-spacing: 0.06em; color: rgba(255,255,255,0.8); transition: color 0.2s; }
+    .nav-links a:hover { color: var(--latao); }
+    .nav-cta { font-family: var(--font-ui); font-size: 0.8125rem; font-weight: 500; color: var(--latao); letter-spacing: 0.06em; border: 1px solid var(--latao); padding: 0.5rem 1.25rem; border-radius: 2px; transition: all 0.2s; }
+    .nav-cta:hover { background: var(--latao); color: var(--branco); }
+
+    .nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+    .nav-toggle span { display: block; width: 24px; height: 1.5px; background: var(--branco); transition: all 0.3s; }
+    .mobile-menu { display: none; }
+
+    @media (max-width: 768px) {
+      .nav-links, .nav-cta { display: none; }
+      .nav-toggle { display: flex; }
+      .mobile-menu { display: none; position: fixed; inset: 0; background: var(--tinta); z-index: 99; flex-direction: column; align-items: center; justify-content: center; gap: 2rem; }
+      .mobile-menu.open { display: flex; }
+      .mobile-menu a { font-family: var(--font-display); font-size: 2rem; font-weight: 300; color: var(--branco); letter-spacing: 0.04em; }
+      .mobile-menu a:hover { color: var(--latao); }
+      .mobile-close { position: absolute; top: 1.5rem; right: var(--gutter); background: none; border: none; color: var(--branco); font-size: 1.5rem; cursor: pointer; }
+    }
+
+    /* ─── Hero ─── */
+    .hero {
+      min-height: 92vh;
+      background: var(--tinta);
+      display: flex;
+      align-items: flex-start;
+      padding-top: clamp(6rem, 14vh, 10rem);
+      padding-bottom: clamp(3rem, 6vh, 5rem);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(14,18,24,0.95) 0%, rgba(14,18,24,0.7) 60%, rgba(184,147,90,0.15) 100%);
+    }
+    .hero-content { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 5rem); align-items: center; width: 100%; position: relative; z-index: 1; }
+    .hero-text { max-width: 46ch; }
+    .hero-photo-wrap { display: flex; justify-content: center; align-items: center; }
+    .hero-shot {
+      width: 100%;
+      border-radius: 2px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+    }
+    .hero-shot::before {
+      content: '';
+      position: absolute;
+      top: -0.75rem; left: -0.75rem;
+      width: 100%; height: 100%;
+      border: 1px solid var(--latao);
+      border-radius: 2px;
+      pointer-events: none;
+    }
+    .hero-shot img { width: 100%; height: auto; aspect-ratio: 1365/768; object-fit: cover; display: block; }
+    @media (max-width: 860px) {
+      .hero-content { grid-template-columns: 1fr; }
+      .hero-photo-wrap { display: none; }
+    }
+    .hero-content .eyebrow { margin-bottom: 1.5rem; }
+    .hero h1 { color: var(--branco); margin-bottom: 1.5rem; max-width: 18ch; }
+    .hero-sub { font-family: var(--font-body); font-size: clamp(1rem, 1.5vw, 1.125rem); color: rgba(255,255,255,0.65); max-width: 50ch; margin-bottom: 2.5rem; line-height: 1.7; }
+    .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+    /* ─── Trust Bar ─── */
+    .trust { background: var(--latao); padding: 1.5rem var(--gutter); }
+    .trust-inner { display: flex; align-items: center; justify-content: center; gap: clamp(2rem, 5vw, 5rem); flex-wrap: wrap; }
+    .trust-item { display: flex; flex-direction: column; align-items: center; gap: 0.25rem; }
+    .trust-num { font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2.25rem); font-weight: 300; color: var(--branco); line-height: 1; }
+    .trust-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(255,255,255,0.75); }
+    .trust-divider { width: 1px; height: 2.5rem; background: rgba(255,255,255,0.25); }
+    @media (max-width: 600px) { .trust-divider { display: none; } }
+
+    /* ─── Section base ─── */
+    .section { padding: var(--section-gap) 0; }
+    .section-header { margin-bottom: clamp(2.5rem, 5vw, 4rem); }
+    .section-header h2 { margin-top: 0.75rem; }
+    .section-narrow { max-width: 680px; }
+    .section-narrow.center { margin: 0 auto; text-align: center; }
+    .section-narrow p { color: var(--texto-suave); font-size: 1.0625rem; margin-bottom: 1.25rem; }
+    .section-narrow p:last-child { margin-bottom: 0; }
+
+    /* ─── Banner (Bandeira) ─── */
+    .cv-banner { text-align: center; padding-top: 2.5rem; margin-top: 2.5rem; border-top: 1px solid var(--pedra); }
+    .cv-banner p { font-family: var(--font-display); font-style: italic; font-weight: 400; font-size: clamp(1.25rem, 2.5vw, 1.625rem); color: var(--latao); }
+
+    /* ─── Mini mapa de módulos ─── */
+    .cv-map-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-top: 3rem; text-align: center; }
+    .cv-map-num { font-family: var(--font-display); font-size: 2.25rem; font-weight: 300; color: var(--latao); margin-bottom: 0.5rem; line-height: 1; }
+    .cv-map-name { font-family: var(--font-ui); font-size: 0.875rem; font-weight: 500; color: var(--tinta); line-height: 1.3; }
+    @media (max-width: 768px) { .cv-map-grid { grid-template-columns: repeat(2, 1fr); gap: 2rem 1rem; } }
+
+    /* ─── Intro / Credibilidade (reutiliza padrão homepage) ─── */
+    .intro { background: var(--branco); }
+    .intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 6vw, 5rem); align-items: center; }
+    .intro-body p { font-size: 1.0625rem; color: var(--texto-suave); margin-bottom: 1.25rem; }
+    .intro-body p:last-child { margin-bottom: 0; }
+    .intro-body strong { color: var(--texto); font-weight: 600; }
+    .intro-visual-photo { width: 100%; border-radius: 2px; overflow: hidden; aspect-ratio: 4/3; }
+    .intro-visual-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; display: block; }
+    .intro-visual-caption { font-family: var(--font-ui); font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--texto-suave); margin-top: 0.875rem; text-align: center; }
+    .intro-visual-caption strong { color: var(--latao); }
+    @media (max-width: 768px) { .intro-grid { grid-template-columns: 1fr; } .intro-visual { order: -1; } }
+
+    /* ─── Módulos ─── */
+    .modules { background: var(--linho); }
+    .modules-intro { color: var(--texto-suave); font-size: 1.0625rem; max-width: 60ch; margin-top: 0.75rem; }
+    .cv-modules-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.75rem; margin-top: 2.75rem; }
+    @media (max-width: 860px) { .cv-modules-grid { grid-template-columns: 1fr; } }
+    .cv-module-card { background: var(--branco); border: 1px solid var(--pedra); border-radius: 2px; overflow: hidden; }
+    .cv-module-shot { aspect-ratio: 1365/768; overflow: hidden; }
+    .cv-module-shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .cv-module-body { padding: 1.75rem 2rem 2rem; }
+    .cv-module-num { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--latao); margin-bottom: 0.625rem; display: block; }
+    .cv-module-body h3 { margin-bottom: 0.625rem; }
+    .cv-module-tagline { font-style: italic; color: var(--texto-suave); margin-bottom: 1rem; font-family: var(--font-display); font-size: 1.0625rem; }
+    .cv-module-list { list-style: none; }
+    .cv-module-list li { font-size: 0.9375rem; color: var(--texto-suave); padding-left: 1.1rem; position: relative; margin-bottom: 0.5rem; line-height: 1.5; }
+    .cv-module-list li::before { content: '—'; position: absolute; left: 0; color: var(--latao); }
+
+    /* ─── Como funciona (Processo) ─── */
+    .process { background: var(--tinta); }
+    .process .eyebrow { color: var(--latao); }
+    .process h2 { color: var(--branco); }
+    .process-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem 4rem; margin-top: 3rem; position: relative; }
+    .process-steps::before { content: ''; position: absolute; top: 1.5rem; left: calc(33.333% - 1rem); right: calc(33.333% - 1rem); height: 1px; background: rgba(184,147,90,0.3); }
+    .process-step { position: relative; }
+    .step-num { font-family: var(--font-display); font-size: 3.5rem; font-weight: 300; color: rgba(184,147,90,0.25); line-height: 1; margin-bottom: 1rem; }
+    .process-step h3 { font-size: 1.25rem; color: var(--branco); margin-bottom: 0.75rem; }
+    .process-step p { font-size: 0.9375rem; color: rgba(255,255,255,0.55); line-height: 1.65; }
+    @media (max-width: 768px) { .process-steps { grid-template-columns: 1fr; gap: 2.5rem; } .process-steps::before { display: none; } }
+
+    /* ─── Para quem é ─── */
+    .cv-fit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2.75rem; }
+    @media (max-width: 768px) { .cv-fit-grid { grid-template-columns: 1fr; } }
+    .cv-fit-card { padding: 2rem; border-radius: 2px; }
+    .cv-fit-card.yes { background: var(--linho); border-left: 3px solid var(--latao); }
+    .cv-fit-card.no { background: var(--branco); border: 1px solid var(--pedra); }
+    .cv-fit-icon { width: 2rem; height: 2rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.25rem; }
+    .cv-fit-card.yes .cv-fit-icon { background: var(--tinta); }
+    .cv-fit-card.yes .cv-fit-icon svg { color: var(--latao); width: 0.875rem; height: 0.875rem; }
+    .cv-fit-card.no .cv-fit-icon { background: var(--pedra); }
+    .cv-fit-card.no .cv-fit-icon svg { color: var(--texto-suave); width: 0.875rem; height: 0.875rem; }
+    .cv-fit-card h3 { font-size: 1.125rem; margin-bottom: 0.75rem; color: var(--tinta); }
+    .cv-fit-card p { color: var(--texto-suave); font-size: 0.9375rem; line-height: 1.7; }
+    .cv-fit-card p strong { color: var(--tinta); }
+
+    /* ─── Garantia ─── */
+    .guarantee { background: var(--linho); }
+    .guarantee-box { max-width: 760px; margin: 0 auto; background: var(--tinta); border-radius: 2px; padding: clamp(2rem, 5vw, 3rem); position: relative; text-align: center; }
+    .guarantee-box::before { content: ''; position: absolute; top: -0.75rem; left: -0.75rem; width: 100%; height: 100%; border: 1px solid var(--latao); border-radius: 2px; pointer-events: none; }
+    .guarantee-box .eyebrow { display: block; margin-bottom: 1rem; }
+    .guarantee-box h2 { color: var(--branco); margin-bottom: 1.25rem; max-width: 26ch; margin-inline: auto; }
+    .guarantee-box p { color: rgba(255,255,255,0.65); font-size: 1.0625rem; line-height: 1.75; max-width: 56ch; margin: 0 auto; }
+    .guarantee-box .cv-fineprint { font-size: 0.8125rem; color: rgba(255,255,255,0.4); margin-top: 1.5rem; }
+
+    /* ─── Preço ─── */
+    .price { background: var(--tinta); text-align: center; }
+    .price .eyebrow { color: var(--latao); }
+    .price h2 { color: var(--branco); margin-bottom: 0.75rem; max-width: 24ch; margin-inline: auto; }
+    .price-intro { color: rgba(255,255,255,0.6); max-width: 50ch; margin: 0 auto 3rem; font-size: 1.0625rem; }
+    .price-compare { display: flex; align-items: center; justify-content: center; gap: clamp(1.5rem, 5vw, 4rem); margin-bottom: 3rem; flex-wrap: wrap; }
+    .price-vs { font-family: var(--font-display); font-style: italic; color: rgba(255,255,255,0.3); font-size: 1.25rem; }
+    .price-block { text-align: center; }
+    .price-num { font-family: var(--font-display); font-weight: 300; line-height: 1; display: block; }
+    .price-num.muted { font-size: clamp(1.75rem, 3.5vw, 2.5rem); color: rgba(255,255,255,0.35); text-decoration: line-through; text-decoration-color: rgba(255,255,255,0.25); }
+    .price-num.highlight { font-size: clamp(3rem, 6vw, 4.5rem); color: var(--latao); }
+    .price-label { font-family: var(--font-ui); font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-top: 0.625rem; display: block; }
+
+    /* ─── Testemunhos ─── */
+    .testimonials { background: var(--linho); }
+    .testimonials-carousel { position: relative; overflow: hidden; }
+    .testimonials-track { display: flex; gap: 1.5rem; transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1); will-change: transform; }
+    .testimonial { flex: 0 0 calc(33.333% - 1rem); min-width: 280px; background: var(--branco); padding: 2rem; border-radius: 2px; border-left: 2px solid var(--latao); }
+    @media (max-width: 900px) { .testimonial { flex: 0 0 calc(50% - 0.75rem); } }
+    @media (max-width: 600px) { .testimonial { flex: 0 0 85vw; } }
+    .testimonial-stars { display: flex; gap: 0.25rem; margin-bottom: 1rem; color: var(--latao); font-size: 0.875rem; }
+    .testimonial-text { font-family: var(--font-display); font-size: 1.0625rem; font-style: italic; font-weight: 400; color: var(--tinta); line-height: 1.6; margin-bottom: 1.25rem; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; overflow: hidden; }
+    .testimonial-author { font-family: var(--font-ui); font-size: 0.8125rem; font-weight: 500; letter-spacing: 0.08em; color: var(--texto-suave); text-transform: uppercase; }
+    .carousel-dots { display: flex; justify-content: center; gap: 0.5rem; margin-top: 1.75rem; }
+    .carousel-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--pedra); border: none; cursor: pointer; transition: background 0.3s, transform 0.3s; padding: 0; }
+    .carousel-dot.active { background: var(--latao); transform: scale(1.4); }
+
+    /* ─── FAQ ─── */
+    .faq { background: var(--branco); }
+    .faq-list { max-width: 720px; }
+    .faq-item { border-bottom: 1px solid var(--pedra); }
+    .faq-question { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.5rem 0; background: none; border: none; cursor: pointer; text-align: left; }
+    .faq-q-text { font-family: var(--font-body); font-size: 1rem; font-weight: 600; color: var(--tinta); }
+    .faq-icon { flex-shrink: 0; width: 1.25rem; height: 1.25rem; border-radius: 50%; border: 1px solid var(--pedra); display: flex; align-items: center; justify-content: center; color: var(--latao); font-size: 1rem; font-weight: 300; transition: transform 0.2s, background 0.2s; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); background: var(--latao); color: var(--branco); border-color: var(--latao); }
+    .faq-answer { display: none; padding: 0 0 1.5rem; font-size: 0.9375rem; color: var(--texto-suave); line-height: 1.7; }
+    .faq-item.open .faq-answer { display: block; }
+
+    /* ─── CTA final ─── */
+    .cta-section { background: var(--tinta); padding: clamp(4rem, 8vw, 7rem) var(--gutter); text-align: center; }
+    .cta-section .eyebrow { margin-bottom: 1rem; }
+    .cta-section h2 { color: var(--branco); max-width: 22ch; margin: 0 auto 1.25rem; }
+    .cta-section p { color: rgba(255,255,255,0.55); max-width: 48ch; margin: 0 auto 2.5rem; font-size: 1.0625rem; }
+    .cta-actions { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem; }
+    .cta-footnote { font-family: var(--font-ui); font-size: 0.8125rem; color: rgba(255,255,255,0.35); letter-spacing: 0.02em; }
+    .cta-footnote a { color: rgba(255,255,255,0.5); }
+    .cta-footnote a:hover { color: var(--latao); }
+
+    /* ─── Footer ─── */
+    footer { background: #080B0F; padding: 3rem var(--gutter) 2rem; color: rgba(255,255,255,0.65); }
+    .footer-inner { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .footer-brand-name { font-family: var(--font-ui); font-size: 0.875rem; font-weight: 600; letter-spacing: 0.14em; color: var(--branco); margin-bottom: 0.75rem; }
+    .footer-tagline { font-family: var(--font-display); font-style: italic; font-size: 0.9375rem; color: rgba(255,255,255,0.65); margin-bottom: 1.25rem; }
+    .footer-contact a { display: block; font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 0.375rem; transition: color 0.2s; }
+    .footer-contact a:hover { color: var(--latao); }
+    .footer-col h4 { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 1.25rem; }
+    .footer-col a { display: block; font-size: 0.875rem; color: rgba(255,255,255,0.65); margin-bottom: 0.625rem; transition: color 0.2s; }
+    .footer-col a:hover { color: rgba(255,255,255,0.8); }
+    .footer-bottom { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer-bottom p { font-size: 0.8125rem; }
+    .footer-bottom a { color: rgba(255,255,255,0.65); transition: color 0.2s; }
+    .footer-bottom a:hover { color: var(--latao); }
+    .footer-ami { font-family: var(--font-ui); font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; color: rgba(255,255,255,0.25); }
+    .footer-rgpd { font-size: 0.75rem; color: rgba(255,255,255,0.2); margin-top: 0.5rem; }
+    @media (max-width: 768px) { .footer-inner { grid-template-columns: 1fr; gap: 2rem; } }
+
+    /* ─── Mobile floating CTA ─── */
+    .mobile-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 50; background: var(--tinta); border-top: 1px solid rgba(255,255,255,0.1); padding: 0.875rem 1.5rem; }
+    .mobile-cta a { display: flex; align-items: center; justify-content: center; gap: 0.625rem; background: var(--latao); color: var(--branco); font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 500; letter-spacing: 0.04em; padding: 0.875rem; border-radius: 2px; }
+    @media (max-width: 1024px) {
+      .nav-cta { display: none; }
+      .mobile-cta { display: block; }
+      body { padding-bottom: 4.5rem; }
+    }
+  </style>
+  <script src="/assets/analytics.js"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="mainNav">
+    <a href="/" class="nav-logo"><img src="/assets/logo-negativo.svg" alt="Equipa Diogo Dias" height="36"></a>
+    <ul class="nav-links">
+      <li><a href="/#servicos">Serviços</a></li>
+      <li><a href="/sobre.html">Sobre</a></li>
+      <li><a href="/artigos.html">Artigos</a></li>
+      <li><a href="/contacto.html">Contacto</a></li>
+      <li><a href="#faq">FAQs</a></li>
+    </ul>
+    <a href="tel:+351963399343" class="nav-cta">963 399 343</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose" aria-label="Fechar menu">&times;</button>
+    <a href="/#servicos">Serviços</a>
+    <a href="/sobre.html">Sobre</a>
+    <a href="/artigos.html">Artigos</a>
+    <a href="/contacto.html">Contacto</a>
+    <a href="#faq">FAQs</a>
+  </div>
+
+  <!-- Secção 1 — Herói -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">Casa Vendida · Sistema Digital</p>
+        <h1>Venda a sua casa sozinho, sem cometer os erros que custam tempo e milhares de euros.</h1>
+        <p class="hero-sub">O sistema passo a passo criado por um consultor imobiliário em atividade — o mesmo que já ajudou a gerar mais de 30 milhões de euros para proprietários. Faça você mesmo, com critério e segurança.</p>
+        <div class="hero-actions">
+          <a href="#preco" class="btn btn-primary" data-checkout-cta>Quero o Casa Vendida</a>
+          <a href="#modulos" class="btn btn-outline">Ver o que está incluído</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="hero-shot">
+          <img src="/assets/hero-calculadora.png" alt="Calculadora Casa Vendida — estudo de mercado e viabilidade, em ecrã de portátil" width="1365" height="768">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust strip -->
+  <div class="trust">
+    <div class="trust-inner">
+      <div class="trust-item">
+        <span class="trust-num">223+</span>
+        <span class="trust-label">Transações</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <span class="trust-num">30M€</span>
+        <span class="trust-label">Gerados p/ Proprietários</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <span class="trust-num">KW</span>
+        <span class="trust-label">Consultor em Atividade</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <span class="trust-num">AMI</span>
+        <span class="trust-label">24232</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Secção 2 — O problema -->
+  <section class="section">
+    <div class="container">
+      <div class="section-narrow center">
+        <p class="eyebrow">O problema</p>
+        <h2 style="margin: 0.75rem 0 1.5rem;">Vender a própria casa parece fácil. Até começar.</h2>
+        <p>Quanto vale, afinal? Que documentos preciso? Como faço um anúncio que atraia compradores, quando os portais escondem os anúncios de particulares? E quando chegar uma proposta — aceito, recuso, contraproponho?</p>
+        <p>A maioria de quem vende sozinho perde dinheiro de uma de duas formas: pede a mais e a casa fica meses parada, ou pede a menos e oferece milhares de euros ao comprador. Nenhuma delas tinha de acontecer.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secção 3 — A viragem (o sistema) -->
+  <section class="section" style="background: var(--linho);">
+    <div class="container">
+      <div class="section-narrow center">
+        <p class="eyebrow">A viragem</p>
+        <h2 style="margin: 0.75rem 0 1.5rem;">Um método, não um palpite.</h2>
+        <p>O Casa Vendida dá-lhe exatamente o que um profissional usa, simplificado para quem vende pela primeira vez. Não é um curso para ver durante horas — são ferramentas e checklists para abrir, preencher e usar. Em minutos sabe quanto vale a sua casa e tem o anúncio pronto.</p>
+      </div>
+      <div class="cv-map-grid">
+        <div>
+          <p class="cv-map-num">01</p>
+          <p class="cv-map-name">Documentos, Valor<br>e Viabilidade</p>
+        </div>
+        <div>
+          <p class="cv-map-num">02</p>
+          <p class="cv-map-name">Preparação<br>e Lançamento</p>
+        </div>
+        <div>
+          <p class="cv-map-num">03</p>
+          <p class="cv-map-name">Negociação<br>e Fecho</p>
+        </div>
+        <div>
+          <p class="cv-map-num">04</p>
+          <p class="cv-map-name">Ofertas<br>(bónus)</p>
+        </div>
+      </div>
+      <div class="cv-banner">
+        <p>Faça você mesmo, com <span>critério</span> e <span>segurança</span>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secção 4 — Quem está por trás -->
+  <section class="intro section">
+    <div class="container">
+      <div class="intro-grid">
+        <div class="intro-body">
+          <p class="eyebrow">Credibilidade</p>
+          <h2 style="margin: 0.75rem 0 1.5rem;">Feito por quem vende casas todos os dias.</h2>
+          <p>O Casa Vendida foi criado pela equipa de Diogo Dias, consultor imobiliário em atividade na KW Coastline. É o mesmo sistema que sustentou mais de 223 transações e mais de 30 milhões de euros gerados para proprietários — agora nas suas mãos, para fazer sozinho.</p>
+          <p>Não são dicas soltas da internet: <strong>é um método testado no terreno.</strong></p>
+        </div>
+        <div class="intro-visual">
+          <div class="intro-visual-photo">
+            <img src="/assets/diogo-dias-apresentacao.webp" alt="Diogo Dias, consultor imobiliário KW Coastline, criador do Casa Vendida" loading="lazy" width="1200" height="900">
+          </div>
+          <p class="intro-visual-caption">Diogo Dias · <strong>AMI 24232</strong> · KW Coastline</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secção 5 — O que vai receber -->
+  <section class="modules section" id="modulos">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">O que vai receber</p>
+        <h2>Tudo o que precisa, organizado pela ordem da venda.</h2>
+        <p class="modules-intro">Um sistema completo em quatro módulos — 22 ficheiros prontos a usar.</p>
+      </div>
+      <div class="cv-modules-grid">
+
+        <div class="cv-module-card">
+          <div class="cv-module-shot">
+            <img src="/assets/modulo1-estudo-mercado.png" alt="Excel Estudo de Mercado e Viabilidade — Módulo 1 do Casa Vendida, em ecrã de portátil" width="1365" height="768" loading="lazy">
+          </div>
+          <div class="cv-module-body">
+            <span class="cv-module-num">Módulo 1</span>
+            <h3>Documentos, Valor e Viabilidade</h3>
+            <p class="cv-module-tagline">Descubra quanto vale a sua casa e se compensa vender.</p>
+            <ul class="cv-module-list">
+              <li>Calculadora e estudo de mercado (Excel)</li>
+              <li>O método explicado</li>
+              <li>Checklist documental</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cv-module-card">
+          <div class="cv-module-shot">
+            <img src="/assets/modulo2-anuncio-ia.jpg" alt="Documento de descrição de anúncio com atalho de IA — Módulo 2 do Casa Vendida, em ecrã de portátil" width="1365" height="768" loading="lazy">
+          </div>
+          <div class="cv-module-body">
+            <span class="cv-module-num">Módulo 2</span>
+            <h3>Preparação e Lançamento</h3>
+            <ul class="cv-module-list">
+              <li>Comprador-tipo</li>
+              <li>Descrição que vende (com atalho de IA)</li>
+              <li>Reparações que compensam</li>
+              <li>Home staging, fotografias e vídeo</li>
+              <li>Brochura e onde anunciar</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cv-module-card">
+          <div class="cv-module-shot">
+            <img src="/assets/modulo3-checklist.png" alt="Checklist da escritura — Módulo 3 do Casa Vendida, em ecrã de portátil" width="1365" height="768" loading="lazy">
+          </div>
+          <div class="cv-module-body">
+            <span class="cv-module-num">Módulo 3</span>
+            <h3>Negociação e Fecho</h3>
+            <ul class="cv-module-list">
+              <li>Qualificação de compradores</li>
+              <li>Guião de visita</li>
+              <li>Gestão de visitas e propostas (Excel)</li>
+              <li>Negociação, sinal e CPCV</li>
+              <li>Cronograma e checklist da escritura</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cv-module-card">
+          <div class="cv-module-shot">
+            <img src="/assets/modulo4-calculadora.png" alt="Calculadora de viabilidade — Módulo 4 (Ofertas) do Casa Vendida, em ecrã de portátil" width="1365" height="768" loading="lazy">
+          </div>
+          <div class="cv-module-body">
+            <span class="cv-module-num">Módulo 4 · Bónus</span>
+            <h3>Ofertas</h3>
+            <p class="cv-module-tagline">Para quem vende para comprar, ou troca de casa.</p>
+            <ul class="cv-module-list">
+              <li>Calculadora de viabilidade — Venda</li>
+              <li>Calculadora de viabilidade — Compra</li>
+              <li>Calculadora de viabilidade — Troca de casa</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Secção 6 — Como funciona -->
+  <section class="process section">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Como funciona</p>
+        <h2>Três passos. Sem complicações.</h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <p class="step-num">01</p>
+          <h3>Descubra o valor</h3>
+          <p>Saiba quanto vale a sua casa e quanto lhe sobra — em minutos.</p>
+        </div>
+        <div class="process-step">
+          <p class="step-num">02</p>
+          <h3>Prepare e lance</h3>
+          <p>Crie um anúncio que vende e divulgue em força.</p>
+        </div>
+        <div class="process-step">
+          <p class="step-num">03</p>
+          <h3>Negoceie e feche</h3>
+          <p>Receba visitas, negoceie com confiança e feche em segurança.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secção 7 — Para quem é (e para quem não é) -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Para quem é</p>
+        <h2>Nem todos devem comprar isto.</h2>
+      </div>
+      <div class="cv-fit-grid">
+        <div class="cv-fit-card yes">
+          <div class="cv-fit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <h3>É para si se</h3>
+          <p>Quer vender a sua casa sem imobiliária, poupar a comissão e ter um <strong>método de confiança</strong> que o guia do princípio ao fim.</p>
+        </div>
+        <div class="cv-fit-card no">
+          <div class="cv-fit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </div>
+          <h3>Não é para si se</h3>
+          <p>Procura uma forma de não fazer nada: o sistema simplifica o trabalho ao máximo, mas <strong>é você que vende a sua casa.</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secção 8 — Reversão de risco -->
+  <section class="guarantee section">
+    <div class="container">
+      <div class="guarantee-box">
+        <span class="eyebrow">A oferta</span>
+        <h2>E se preferir ser acompanhado? Não perde nada.</h2>
+        <p>Se a dada altura decidir que prefere ser representado por um profissional, o valor que pagou pelo Casa Vendida é-lhe <strong style="color:var(--branco);">devolvido na íntegra</strong> quando me contratar para representar a venda ou a troca da sua casa — devolução em 48 horas após a assinatura do Contrato-Promessa de Compra e Venda.</p>
+        <p style="margin-top:1rem;">Ou seja: ou vende sozinho com o sistema, ou tem um profissional ao seu lado sem ter pago o sistema.</p>
+        <p class="cv-fineprint">Condições e área de aplicação a confirmar.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secção 9 — Preço e ancoragem -->
+  <section class="price section" id="preco">
+    <div class="container">
+      <p class="eyebrow">Preço</p>
+      <h2>Quanto custa não ter de pagar comissão.</h2>
+      <p class="price-intro">Uma comissão de mediação ronda os 5% do valor da casa — numa casa de 300.000€, são cerca de 15.000€.</p>
+      <div class="price-compare">
+        <div class="price-block">
+          <span class="price-num muted">~15.000€</span>
+          <span class="price-label">Comissão típica (5%)</span>
+        </div>
+        <span class="price-vs">vs.</span>
+        <div class="price-block">
+          <span class="price-num highlight">67€</span>
+          <span class="price-label">Casa Vendida · pagamento único</span>
+        </div>
+      </div>
+      <div class="cta-actions" style="margin-bottom:0;">
+        <a href="#preco" class="btn btn-primary" data-checkout-cta>Quero o Casa Vendida — 67€</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secção 10 — Prova social -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Clientes</p>
+        <h2>Quem já confiou no nosso trabalho.</h2>
+      </div>
+      <div class="testimonials-carousel">
+        <div class="testimonials-track" id="testimonialsTrack">
+          <div class="testimonial">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"O Diogo Dias é um excelente profissional, recomendo vivamente para qualquer negócio imobiliário. Demonstra grande conhecimento do mercado, apresentando um analise de informações. O acompanhamento em todas as etapas foi impecável."</p>
+            <p class="testimonial-author">David Cardoso · Google</p>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"O Diogo alia uma série de ferramentas técnicas de grande valor para o sucesso do negócio, a uma total dedicação ao cliente e elevado pofissionalismo, sempre com o foco no atendimento de excelência. Sem qualquer dúvida, um profissional de 5*, de total confiança!"</p>
+            <p class="testimonial-author">Sofia Antunes · Google</p>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Excelente Profissional, ajudou-nos bastante no cumprimento dos nossos objetivos de compra e venda de habitação. Será sempre a primeira escolha em futuros negócios."</p>
+            <p class="testimonial-author">Dolores Nobre · Google</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </section>
+
+  <!-- Secção 11 — FAQ -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Perguntas frequentes</p>
+        <h2>O que precisa de saber antes de avançar.</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-q-text">Preciso de perceber de imobiliário?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">Não. O sistema foi feito para quem nunca vendeu.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-q-text">Isto substitui o advogado?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">Não. Prepara-o para chegar ao contrato organizado; a assinatura do CPCV deve ser validada por um advogado ou solicitador.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-q-text">Funciona em todo o país?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">Sim. O método é nacional; os dados de mercado são os da sua zona.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-q-text">Como recebo?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">Acesso imediato e digital após a compra.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-q-text">E se precisar de ajuda a meio?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">Tem o Módulo 4 e pode sempre falar comigo — e, se me contratar, o sistema é-lhe devolvido.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secção 12 — CTA final -->
+  <section class="cta-section">
+    <p class="eyebrow">Comece hoje</p>
+    <h2>Comece hoje a vender a sua casa pelo preço certo.</h2>
+    <p>Acesso imediato. 67€, uma vez.</p>
+    <div class="cta-actions">
+      <a href="#preco" class="btn btn-primary" data-checkout-cta>Quero o Casa Vendida</a>
+    </div>
+    <p class="cta-footnote">Diogo Dias · KW Coastline · AMI 24232 · <a href="mailto:diogo.dias@kwportugal.pt">diogo.dias@kwportugal.pt</a> · <a href="tel:+351963399343">+351 963 399 343</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <a href="/"><img src="/assets/logo-negativo.svg" alt="Equipa Diogo Dias" height="32" style="margin-bottom:0.75rem;display:block;" loading="lazy"></a>
+          <p class="footer-tagline">"Criamos relações de confiança."</p>
+          <div class="footer-contact">
+            <a href="tel:+351963399343">+351 963 399 343</a>
+            <a href="mailto:diogo.dias@kwportugal.pt">diogo.dias@kwportugal.pt</a>
+            <a href="https://www.instagram.com/equipadiogodias" target="_blank" rel="noopener">@equipadiogodias</a>
+          </div>
+          <p class="footer-rgpd">Rua Rui Furtado, 12B · 2820-235 Charneca de Caparica · Almada</p>
+        </div>
+        <div class="footer-col">
+          <h4>Serviços</h4>
+          <a href="/servicos/diagnostico-venda-almada.html">Diagnóstico de Venda</a>
+          <a href="/servicos/avaliacao-imovel-almada.html">Avaliação de Imóvel</a>
+          <a href="/servicos/venda-apartamento-almada.html">Venda de Apartamento</a>
+          <a href="/servicos/venda-moradia-almada.html">Venda de Moradia</a>
+          <a href="/servicos/troca-casa-almada.html">Troca de Casa</a>
+          <a href="/servicos/investimento-imobiliario-almada.html">Investimento Imobiliário</a>
+          <a href="/sobre.html">Sobre Diogo Dias</a>
+          <a href="/artigos.html">Artigos</a>
+          <a href="/contacto.html">Contacto</a>
+        </div>
+        <div class="footer-col">
+          <h4>Zonas onde trabalhamos</h4>
+          <a href="/zonas/consultor-imobiliario-almada.html">Almada</a>
+          <a href="/zonas/consultor-imobiliario-barreiro.html">Barreiro</a>
+          <a href="/zonas/consultor-imobiliario-cascais.html">Cascais</a>
+          <a href="/zonas/consultor-imobiliario-lisboa.html">Lisboa</a>
+          <a href="/zonas/consultor-imobiliario-palmela.html">Palmela</a>
+          <a href="/zonas/consultor-imobiliario-seixal.html">Seixal</a>
+          <a href="/zonas/consultor-imobiliario-sesimbra.html">Sesimbra</a>
+          <a href="/zonas/consultor-imobiliario-setubal.html">Setúbal</a>
+          <a href="/zonas/consultor-imobiliario-sintra.html">Sintra</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Equipa Diogo Dias · <a href="/politica-privacidade.html">Política de Privacidade</a> &middot; <a href="/termos-e-condicoes.html">Termos e Condições</a></p>
+        <p class="footer-ami">AMI 24232 · KW Portugal</p>
+      </div>
+      <p class="footer-rgpd" style="margin-top: 0.75rem;">Este site destina-se exclusivamente à promoção dos serviços de mediação imobiliária da Equipa Diogo Dias, licença AMI 24232, integrada na rede KW Portugal.</p>
+    </div>
+  </footer>
+
+  <!-- Mobile CTA -->
+  <div class="mobile-cta">
+    <a href="#preco" data-checkout-cta>Quero o Casa Vendida · 67€</a>
+  </div>
+
+  <script>
+    // Placeholder de checkout — substituir pelo link real (Stripe/Gumroad) quando existir
+    const CHECKOUT_URL = '#preco';
+    document.querySelectorAll('[data-checkout-cta]').forEach(el => el.setAttribute('href', CHECKOUT_URL));
+
+    // Carrossel de testemunhos
+    (function() {
+      const track = document.getElementById('testimonialsTrack');
+      const dotsContainer = document.getElementById('carouselDots');
+      if (!track) return;
+
+      const cards = Array.from(track.children);
+      const total = cards.length;
+      let current = 0;
+      let timer;
+
+      function visibleCount() {
+        const w = window.innerWidth;
+        if (w <= 600) return 1;
+        if (w <= 900) return 2;
+        return 3;
+      }
+
+      function cardWidth() {
+        return cards[0].getBoundingClientRect().width + 24;
+      }
+
+      function maxIndex() {
+        return Math.max(0, total - visibleCount());
+      }
+
+      dotsContainer.innerHTML = '';
+      for (let i = 0; i <= maxIndex(); i++) {
+        const dot = document.createElement('button');
+        dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+        dot.setAttribute('aria-label', 'Testemunho ' + (i + 1));
+        dot.addEventListener('click', () => goTo(i));
+        dotsContainer.appendChild(dot);
+      }
+
+      function updateDots() {
+        Array.from(dotsContainer.children).forEach((d, i) => {
+          d.classList.toggle('active', i === current);
+        });
+      }
+
+      function goTo(index) {
+        current = Math.min(index, maxIndex());
+        track.style.transform = `translateX(-${current * cardWidth()}px)`;
+        updateDots();
+      }
+
+      function next() {
+        goTo(current >= maxIndex() ? 0 : current + 1);
+      }
+
+      function startAuto() { timer = setInterval(next, 4000); }
+      function stopAuto() { clearInterval(timer); }
+
+      track.parentElement.addEventListener('mouseenter', stopAuto);
+      track.parentElement.addEventListener('mouseleave', startAuto);
+
+      window.addEventListener('resize', () => {
+        stopAuto();
+        const newMax = maxIndex();
+        if (dotsContainer.children.length !== newMax + 1) {
+          dotsContainer.innerHTML = '';
+          for (let i = 0; i <= newMax; i++) {
+            const dot = document.createElement('button');
+            dot.className = 'carousel-dot' + (i === current ? ' active' : '');
+            dot.addEventListener('click', () => goTo(i));
+            dotsContainer.appendChild(dot);
+          }
+        }
+        if (current > newMax) current = 0;
+        goTo(current);
+        startAuto();
+      });
+
+      startAuto();
+    })();
+
+    // Nav scroll
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Mobile menu
+    const toggle = document.getElementById('navToggle');
+    const menu = document.getElementById('mobileMenu');
+    const close = document.getElementById('mobileClose');
+    toggle.addEventListener('click', () => menu.classList.add('open'));
+    close.addEventListener('click', () => menu.classList.remove('open'));
+    document.querySelectorAll('.mobile-menu a').forEach(link => {
+      link.addEventListener('click', () => menu.classList.remove('open'));
+    });
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+  </script>
+
+<script src="/assets/cookie-consent.js"></script>
+</body>
+</html>
