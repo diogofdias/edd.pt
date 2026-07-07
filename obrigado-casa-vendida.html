@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acesso Confirmado — Casa Vendida | Equipa Diogo Dias</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --tinta: #0E1218;
+      --latao: #B8935A;
+      --linho: #F2EDE4;
+      --pedra: #D8CFBE;
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-ui: 'Outfit', system-ui, sans-serif;
+      --gutter: clamp(1rem, 5vw, 2rem);
+    }
+    body {
+      background: var(--tinta);
+      color: var(--linho);
+      font-family: var(--font-ui);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem var(--gutter);
+      text-align: center;
+    }
+    .logo { margin-bottom: 3rem; }
+    .logo img { height: 36px; }
+    .check-icon {
+      width: 64px; height: 64px;
+      border-radius: 50%;
+      background: rgba(184,147,90,0.15);
+      border: 2px solid var(--latao);
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 2rem;
+      font-size: 1.75rem;
+    }
+    .eyebrow {
+      font-family: var(--font-ui);
+      font-size: 0.6875rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--latao);
+      display: block;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 300;
+      color: var(--linho);
+      margin-bottom: 1.25rem;
+      line-height: 1.2;
+    }
+    .lead {
+      font-size: 1.0625rem;
+      color: rgba(242,237,228,0.75);
+      line-height: 1.7;
+      max-width: 520px;
+      margin: 0 auto 3rem;
+    }
+    .steps {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(184,147,90,0.2);
+      border-radius: 4px;
+      padding: 2rem 2.5rem;
+      max-width: 480px;
+      width: 100%;
+      text-align: left;
+      margin: 0 auto 2.5rem;
+    }
+    .steps-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--latao);
+      margin-bottom: 1.25rem;
+    }
+    .steps ol { padding-left: 1.25rem; }
+    .steps li {
+      color: rgba(242,237,228,0.8);
+      font-size: 0.9375rem;
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+    }
+    .steps li:last-child { margin-bottom: 0; }
+    .actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2.5rem; }
+    .btn-primary {
+      background: var(--latao);
+      color: #fff;
+      text-decoration: none;
+      font-family: var(--font-ui);
+      font-size: 0.875rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      padding: 0.75rem 1.75rem;
+      border-radius: 2px;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover { background: #a07d4a; }
+    .btn-outline {
+      color: rgba(242,237,228,0.6);
+      text-decoration: none;
+      font-family: var(--font-ui);
+      font-size: 0.875rem;
+      padding: 0.75rem 1.75rem;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 2px;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .btn-outline:hover { border-color: rgba(255,255,255,0.4); color: var(--linho); }
+    .support {
+      margin-top: 3rem;
+      font-size: 0.8125rem;
+      color: rgba(242,237,228,0.4);
+    }
+    .support a { color: var(--latao); text-decoration: none; }
+    .support a:hover { text-decoration: underline; }
+  </style>
+  <script src="/assets/analytics.js"></script>
+</head>
+<body>
+
+  <div class="logo">
+    <a href="/"><img src="/assets/logo-negativo.svg" alt="Equipa Diogo Dias" height="36"></a>
+  </div>
+
+  <div class="check-icon">✓</div>
+
+  <span class="eyebrow">Compra confirmada</span>
+
+  <h1>O seu acesso ao Casa Vendida está ativo.</h1>
+
+  <p class="lead">Obrigado pela sua compra. Vai receber um email com o link de acesso aos ficheiros nos próximos minutos. Verifique também a pasta de spam.</p>
+
+  <div class="steps">
+    <p class="steps-title">Próximos passos</p>
+    <ol>
+      <li>Verifique o seu email (incluindo pasta de spam)</li>
+      <li>Clique no link de acesso e descarregue os ficheiros</li>
+      <li>Comece pelo Módulo 1 — Estudo de Mercado e Valor de Anúncio</li>
+      <li>Siga a ordem dos módulos para um resultado mais eficaz</li>
+    </ol>
+  </div>
+
+  <div class="actions">
+    <a href="/casa-vendida.html" class="btn-outline">Ver página do produto</a>
+    <a href="/" class="btn-primary">Voltar ao início</a>
+  </div>
+
+  <p class="support">
+    Alguma questão? Contacte-nos em <a href="mailto:diogo.dias@kwportugal.pt">diogo.dias@kwportugal.pt</a>
+  </p>
+
+  <script>
+    (function () {
+      var sessionId = new URLSearchParams(window.location.search).get('session_id') || '';
+      function fireEvent() {
+        if (typeof gtag !== 'function') return;
+        gtag('event', 'purchase', {
+          transaction_id: sessionId,
+          value: 67,
+          currency: 'EUR',
+          items: [{ item_id: 'casa-vendida', item_name: 'Casa Vendida', price: 67, quantity: 1 }]
+        });
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', fireEvent);
+      } else {
+        fireEvent();
+      }
+      document.addEventListener('edd:consent-accepted', fireEvent);
+    })();
+  </script>
+
+</body>
+</html>

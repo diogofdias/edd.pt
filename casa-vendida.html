@@ -45,7 +45,17 @@
       "availability": "https://schema.org/InStock"
     },
     "seller": {
-      "@id": "https://edd.pt/#organization"
+      "@type": "Organization",
+      "@id": "https://edd.pt/#coresivectores",
+      "legalName": "Coresivectores, Unipessoal, Lda",
+      "taxID": "515955310",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Helena Vaz da Silva, n.º 9",
+        "addressLocality": "Charneca da Caparica",
+        "postalCode": "2820-425",
+        "addressCountry": "PT"
+      }
     }
   }
   </script>
@@ -404,7 +414,7 @@
     .footer-bottom a { color: rgba(255,255,255,0.65); transition: color 0.2s; }
     .footer-bottom a:hover { color: var(--latao); }
     .footer-ami { font-family: var(--font-ui); font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; color: rgba(255,255,255,0.25); }
-    .footer-rgpd { font-size: 0.75rem; color: rgba(255,255,255,0.2); margin-top: 0.5rem; }
+    .footer-rgpd { font-size: 0.75rem; color: rgba(255,255,255,0.55); margin-top: 0.5rem; }
     @media (max-width: 768px) { .footer-inner { grid-template-columns: 1fr; gap: 2rem; } }
 
     /* ─── Mobile floating CTA ─── */
@@ -415,6 +425,9 @@
       .mobile-cta { display: block; }
       body { padding-bottom: 4.5rem; }
     }
+    .resposta-rapida { background: var(--linho, #F2EDE4); border-left: 3px solid var(--latao, #B8935A); padding: 1.5rem 1.75rem; margin-bottom: 2.5rem; border-radius: 0 2px 2px 0; }
+    .rr-label { font-family: var(--font-ui, Outfit, sans-serif); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--latao, #B8935A); display: block; margin-bottom: 0.75rem; }
+    .resposta-rapida > p { margin-bottom: 0; font-size: 0.9375rem; line-height: 1.75; }
   </style>
   <script src="/assets/analytics.js"></script>
 </head>
@@ -462,6 +475,16 @@
         <div class="hero-shot">
           <img src="/assets/hero-calculadora.png" alt="Calculadora Casa Vendida — estudo de mercado e viabilidade, em ecrã de portátil" width="1365" height="768">
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resposta Rápida IA -->
+  <section class="section" style="background:var(--linho,#F2EDE4);padding-block:2rem 0;">
+    <div class="container">
+      <div class="resposta-rapida">
+        <span class="rr-label">Casa Vendida</span>
+        <p>O sistema Casa Vendida é um produto digital que permite vender a sua casa em Portugal sem imobiliária, com o mesmo rigor metodológico de um consultor profissional. Criado pela Equipa Diogo Dias — AMI 24232 — com base em mais de 223 transações reais e 30 M€ em volume na Área Metropolitana de Lisboa. Inclui seis módulos digitais: estudo de mercado comparativo em Excel, guia de preparação e apresentação do imóvel, argumentário para visitas, guia de negociação e gestão de propostas, checklist de documentação e protocolo de acompanhamento de escritura. Preço: 67 € (IVA incluído). Acesso imediato após pagamento. Fornecido por Coresivectores, Unipessoal, Lda — NIPC 515955310. Adequado para imóveis de habitação e investimento em Portugal continental.</p>
       </div>
     </div>
   </section>
