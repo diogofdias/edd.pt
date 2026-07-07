@@ -38,4 +38,25 @@
     gtag('consent', 'update', { analytics_storage: 'granted' });
     gtag('event', 'page_view');
   });
+
+  // 7. Rastreia cliques em telefone / WhatsApp
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest('a[href]');
+    if (!el) return;
+    var href = el.getAttribute('href');
+    if (href.startsWith('tel:') || href.indexOf('wa.me') !== -1) {
+      gtag('event', 'phone_click', { link_url: href });
+    }
+    if (href.indexOf('buy.stripe.com') !== -1 || el.hasAttribute('data-checkout-cta')) {
+      gtag('event', 'checkout_start', { link_url: href });
+    }
+  });
+
+  // 8. Rastreia submissão de formulários de contacto
+  document.addEventListener('submit', function (e) {
+    var form = e.target;
+    gtag('event', 'form_submit', {
+      form_id: form.id || form.getAttribute('name') || 'contact'
+    });
+  });
 })();
