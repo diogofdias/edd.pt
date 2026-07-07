@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<users>
+  <!-- Substituir o valor do ApiKey pelo código fornecido pelo Bing Webmaster Tools -->
+  <!-- Aceder a: https://www.bing.com/webmasters → Add a Site → XML file verification -->
+  <user>XXXXXXXXXXXXXXXXXXXXXXXXXX</user>
+</users>
