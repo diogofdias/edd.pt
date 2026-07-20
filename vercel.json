@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    {
+      "source": "/agendar-avaliacao-gratuita",
+      "destination": "/contacto.html",
+      "permanent": true
+    },
+    {
+      "source": "/porque-portugal",
+      "destination": "/artigos/buying-property-lisbon-almada-guide.html",
+      "permanent": true
+    },
+    {
+      "source": "/politica-de-privacidade",
+      "destination": "/politica-privacidade.html",
+      "permanent": true
+    },
+    {
+      "source": "/comprar",
+      "destination": "/contacto.html",
+      "permanent": true
+    }
+  ]
+}
