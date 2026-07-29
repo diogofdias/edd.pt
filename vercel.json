@@ -1,6 +1,12 @@
 {
   "redirects": [
     {
+      "source": "/(.*)",
+      "has": [{"type": "host", "value": "www.edd.pt"}],
+      "destination": "https://edd.pt/$1",
+      "permanent": true
+    },
+    {
       "source": "/agendar-avaliacao-gratuita",
       "destination": "/contacto.html",
       "permanent": true
