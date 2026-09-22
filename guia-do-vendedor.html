@@ -121,12 +121,14 @@
 
     .hero-h1 {
       font-family: var(--font-display);
-      font-size: clamp(2.25rem, 6vw, 3.5rem);
+      font-size: clamp(2.75rem, 7vw, 4.5rem);
       font-weight: 300;
-      line-height: 1.15;
+      line-height: 1.1;
       color: var(--linho);
       margin-bottom: 1.25rem;
     }
+
+    .hero-accent { color: var(--latao); }
 
     .hero-lead {
       font-size: 1.0625rem;
@@ -195,7 +197,8 @@
     .hero-image img {
       max-width: 420px;
       width: 100%;
-      border-radius: 4px;
+      border-radius: 10px;
+      border: 1.5px solid rgba(184, 147, 90, 0.5);
     }
 
     @media (min-width: 900px) {
@@ -225,6 +228,7 @@
       background: var(--linho);
       color: var(--tinta);
       padding: 5rem 0;
+      text-align: center;
     }
 
     .s-porque .eyebrow { color: var(--latao); }
@@ -236,9 +240,11 @@
       line-height: 1.2;
       margin-bottom: 2rem;
       max-width: 680px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    .porque-text { max-width: 640px; }
+    .porque-text { max-width: 640px; margin: 0 auto; }
 
     .porque-text p {
       font-size: 1rem;
@@ -256,6 +262,7 @@
       background: var(--linho);
       color: var(--tinta);
       padding: 5rem 0;
+      text-align: center;
     }
 
     .s-conteudo .eyebrow { color: var(--latao); }
@@ -269,6 +276,8 @@
       line-height: 1.2;
       margin-bottom: 1rem;
       max-width: 680px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .intro-text {
@@ -276,7 +285,7 @@
       color: rgba(14, 18, 24, 0.6);
       line-height: 1.75;
       max-width: 600px;
-      margin-bottom: 3rem;
+      margin: 0 auto 3rem;
     }
 
     .cards-grid {
@@ -295,6 +304,7 @@
       border-radius: 4px;
       padding: 2rem;
       box-shadow: 0 2px 12px rgba(14, 18, 24, 0.06);
+      text-align: left;
     }
 
     .card-num {
@@ -345,14 +355,11 @@
     }
 
     .closing-text {
-      font-family: var(--font-display);
-      font-size: 1.125rem;
-      font-style: italic;
-      color: rgba(14, 18, 24, 0.45);
-      text-align: center;
-      max-width: 580px;
-      margin: 3.5rem auto 0;
-      line-height: 1.6;
+      font-size: 1rem;
+      color: rgba(14, 18, 24, 0.6);
+      line-height: 1.75;
+      max-width: 600px;
+      margin: 3rem auto 0;
     }
 
     .mockup-center {
@@ -364,7 +371,9 @@
       max-width: 500px;
       width: 100%;
       margin: 0 auto;
-      border-radius: 4px;
+      border-radius: 10px;
+      border: 1.5px solid rgba(14, 18, 24, 0.18);
+      display: block;
     }
 
     /* =====================
@@ -374,11 +383,12 @@
       background: var(--linho);
       color: var(--tinta);
       padding: 5rem 0;
+      text-align: center;
     }
 
     .s-form .eyebrow { color: var(--latao); }
 
-    .form-wrap { max-width: 520px; }
+    .form-wrap { max-width: 520px; margin: 0 auto; text-align: left; }
 
     .s-form h2 {
       font-family: var(--font-display);
@@ -629,6 +639,7 @@
       background: var(--linho);
       color: var(--tinta);
       padding: 5rem 0;
+      text-align: center;
     }
 
     .s-para-quem .eyebrow { color: var(--latao); }
@@ -640,6 +651,8 @@
       line-height: 1.2;
       margin-bottom: 2.5rem;
       max-width: 580px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .para-quem-grid {
@@ -659,6 +672,7 @@
       border-left: 3px solid var(--latao);
       border-radius: 0 4px 4px 0;
       padding: 2rem;
+      text-align: left;
     }
 
     .pq-card h3 {
@@ -677,11 +691,11 @@
     }
 
     .para-quem-fecho {
-      font-family: var(--font-display);
-      font-size: 1.25rem;
-      font-weight: 300;
-      font-style: italic;
-      color: rgba(14, 18, 24, 0.5);
+      font-size: 1rem;
+      color: rgba(14, 18, 24, 0.6);
+      line-height: 1.75;
+      max-width: 600px;
+      margin: 0 auto;
     }
 
     /* =====================
@@ -692,6 +706,7 @@
       color: var(--tinta);
       padding: 5rem 0;
       overflow: hidden;
+      text-align: center;
     }
 
     .s-testemunhos .eyebrow { color: var(--latao); }
@@ -708,6 +723,8 @@
       color: rgba(14, 18, 24, 0.55);
       margin-bottom: 3rem;
       max-width: 540px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .carousel { position: relative; }
@@ -848,6 +865,7 @@
       background: var(--linho);
       color: var(--tinta);
       padding: 5rem 0;
+      text-align: center;
     }
 
     .s-faq .eyebrow { color: var(--latao); }
@@ -859,7 +877,7 @@
       margin-bottom: 3rem;
     }
 
-    .faq-list { max-width: 740px; }
+    .faq-list { max-width: 740px; margin: 0 auto; text-align: left; }
 
     .faq-item {
       border-bottom: 1px solid rgba(14, 18, 24, 0.1);
@@ -947,7 +965,7 @@
 
         <div class="hero-content">
           <span class="eyebrow">Guia Gratuito para Proprietários</span>
-          <h1 class="hero-h1">Quer vender a sua casa? Saiba por onde começar.</h1>
+          <h1 class="hero-h1">Quer vender a sua casa?<br>Saiba por <span class="hero-accent">onde começar.</span></h1>
           <p class="hero-lead">Receba gratuitamente o nosso Guia do Vendedor e descubra, passo a passo, como preparar, promover, negociar e concluir a venda da sua casa.</p>
           <ul class="hero-benefits">
             <li>Defina o preço e a estratégia de venda</li>
