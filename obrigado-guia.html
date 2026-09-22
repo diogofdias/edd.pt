@@ -97,6 +97,16 @@
 
     .btn:hover { opacity: 0.85; }
 
+    .btn-secondary {
+      background: transparent;
+      color: var(--pedra);
+      border: 1px solid var(--pedra);
+      opacity: 0.6;
+      display: block;
+    }
+
+    .btn-secondary:hover { opacity: 0.9; }
+
     .logo-link {
       display: block;
       margin-top: 3rem;
@@ -111,13 +121,15 @@
   <div class="wrap">
     <div class="check-circle">✓</div>
 
-    <h1>Guia enviado para o seu&nbsp;e‑mail!</h1>
+    <h1>O seu Guia está&nbsp;pronto!</h1>
 
-    <p>Receberá em breve o link de acesso ao <em>Guia do Vendedor</em> no endereço que indicou.</p>
+    <p>Clique no botão abaixo para descarregar o <em>Guia do Vendedor</em> da equipa Diogo Dias.</p>
 
-    <p class="spam-note">Não encontra o e-mail? Verifique a pasta de spam ou contacte-nos em <a href="mailto:diogo.dias@kwportugal.pt" style="color:var(--latao);">diogo.dias@kwportugal.pt</a>.</p>
+    <a class="btn btn-download" href="/assets/guia-do-vendedor.pdf" download="Guia-do-Vendedor-Equipa-Diogo-Dias.pdf">Descarregar o Guia</a>
 
-    <a class="btn" href="https://edd.pt/">Voltar ao site</a>
+    <p class="spam-note" style="margin-top:2rem;">Alguma questão? Contacte-nos em <a href="mailto:diogo.dias@kwportugal.pt" style="color:var(--latao);">diogo.dias@kwportugal.pt</a> ou pelo 963&nbsp;399&nbsp;343.</p>
+
+    <a class="btn btn-secondary" href="https://edd.pt/" style="margin-top:0.75rem;">Voltar ao site</a>
 
     <a class="logo-link" href="https://edd.pt/" aria-label="Equipa Diogo Dias">
       <img src="/assets/logo-negativo.svg" alt="Equipa Diogo Dias" width="180">
