@@ -253,9 +253,12 @@
        S3 — O QUE VAI ENCONTRAR
        ===================== */
     .s-conteudo {
-      background: var(--tinta);
+      background: var(--linho);
+      color: var(--tinta);
       padding: 5rem 0;
     }
+
+    .s-conteudo .eyebrow { color: var(--latao); }
 
     .s-conteudo .section-header { margin-bottom: 1rem; }
 
@@ -270,7 +273,7 @@
 
     .intro-text {
       font-size: 1rem;
-      color: rgba(242, 237, 228, 0.65);
+      color: rgba(14, 18, 24, 0.6);
       line-height: 1.75;
       max-width: 600px;
       margin-bottom: 3rem;
@@ -287,17 +290,18 @@
     }
 
     .card {
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid rgba(184, 147, 90, 0.18);
+      background: #fff;
+      border: 1px solid rgba(14, 18, 24, 0.08);
       border-radius: 4px;
       padding: 2rem;
+      box-shadow: 0 2px 12px rgba(14, 18, 24, 0.06);
     }
 
     .card-num {
       font-family: var(--font-display);
       font-size: 3rem;
       font-weight: 300;
-      color: rgba(184, 147, 90, 0.25);
+      color: rgba(184, 147, 90, 0.35);
       line-height: 1;
       margin-bottom: 0.875rem;
     }
@@ -306,26 +310,26 @@
       font-family: var(--font-display);
       font-size: 1.3125rem;
       font-weight: 400;
-      color: var(--linho);
+      color: var(--tinta);
       margin-bottom: 0.625rem;
     }
 
     .card-intro {
       font-size: 0.875rem;
-      color: rgba(242, 237, 228, 0.55);
+      color: rgba(14, 18, 24, 0.55);
       line-height: 1.65;
       margin-bottom: 1.25rem;
     }
 
     .card-topics {
       list-style: none;
-      border-top: 1px solid rgba(255, 255, 255, 0.07);
+      border-top: 1px solid rgba(14, 18, 24, 0.08);
       padding-top: 1.125rem;
     }
 
     .card-topics li {
       font-size: 0.8125rem;
-      color: rgba(242, 237, 228, 0.5);
+      color: rgba(14, 18, 24, 0.55);
       padding: 0.25rem 0;
       display: flex;
       align-items: flex-start;
@@ -335,7 +339,7 @@
 
     .card-topics li::before {
       content: '—';
-      color: rgba(184, 147, 90, 0.5);
+      color: var(--latao);
       flex-shrink: 0;
       margin-top: 0.05em;
     }
@@ -344,7 +348,7 @@
       font-family: var(--font-display);
       font-size: 1.125rem;
       font-style: italic;
-      color: rgba(242, 237, 228, 0.5);
+      color: rgba(14, 18, 24, 0.45);
       text-align: center;
       max-width: 580px;
       margin: 3.5rem auto 0;
@@ -684,10 +688,13 @@
        S7 — TESTEMUNHOS
        ===================== */
     .s-testemunhos {
-      background: var(--tinta);
+      background: var(--linho);
+      color: var(--tinta);
       padding: 5rem 0;
       overflow: hidden;
     }
+
+    .s-testemunhos .eyebrow { color: var(--latao); }
 
     .s-testemunhos h2 {
       font-family: var(--font-display);
@@ -698,7 +705,7 @@
 
     .s-testemunhos .support-text {
       font-size: 0.9375rem;
-      color: rgba(242, 237, 228, 0.55);
+      color: rgba(14, 18, 24, 0.55);
       margin-bottom: 3rem;
       max-width: 540px;
     }
@@ -768,7 +775,7 @@
       width: 6px;
       height: 6px;
       border-radius: 50%;
-      background: rgba(255, 255, 255, 0.18);
+      background: rgba(14, 18, 24, 0.2);
       border: none;
       cursor: pointer;
       padding: 0;
