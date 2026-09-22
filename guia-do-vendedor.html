@@ -1057,7 +1057,28 @@
           <li>Recebe o Guia diretamente no seu e-mail</li>
         </ul>
 
-        <form class="lp-form" id="guia-form" novalidate>
+        <form class="lp-form" id="guia-form" action="https://formsubmit.co/diogo.dias@kwportugal.pt" method="POST">
+
+          <input type="hidden" name="_subject" value="Novo pedido — Guia do Vendedor | edd.pt">
+          <input type="hidden" name="_next" value="https://edd.pt/obrigado-guia.html">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_autoresponder" value="Olá,
+
+Obrigado por solicitar o Guia do Vendedor da equipa Diogo Dias.
+
+O seu Guia está disponível para descarregar através do link abaixo:
+https://edd.pt/assets/guia-do-vendedor.pdf
+
+Este guia foi criado para o ajudar a compreender todas as etapas de uma venda imobiliária, desde a preparação inicial até à escritura.
+
+Para qualquer dúvida, estamos disponíveis em diogo.dias@kwportugal.pt ou pelo 963 399 343.
+
+Com os melhores cumprimentos,
+Diogo Dias
+equipa DIOGO DIAS | KW Coastline | AMI 24 232
+www.edd.pt">
+          <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
 
           <div class="field">
             <label for="nome">Nome</label>
@@ -1068,8 +1089,6 @@
             <label for="email">E-mail</label>
             <input type="email" id="email" name="email" placeholder="O seu melhor e-mail" required autocomplete="email">
           </div>
-
-          <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
 
           <button type="submit" class="btn-submit">Quero receber o Guia</button>
 
@@ -1314,66 +1333,6 @@
 
 
   <!-- ===================== SCRIPTS ===================== -->
-
-  <!-- Formulário -->
-  <script>
-  (function () {
-    var form = document.getElementById('guia-form');
-    if (!form) return;
-    var btn = form.querySelector('.btn-submit');
-    var autorespMessage = 'Olá,\n\nObrigado por solicitar o Guia do Vendedor da equipa Diogo Dias.\n\nO seu Guia está disponível para descarregar através do link abaixo:\nhttps://edd.pt/assets/guia-do-vendedor.pdf\n\nEste guia foi criado para o ajudar a compreender todas as etapas de uma venda imobiliária, desde a preparação inicial até à escritura.\n\nPara qualquer dúvida, estamos disponíveis em diogo.dias@kwportugal.pt ou pelo 963 399 343.\n\nCom os melhores cumprimentos,\nDiogo Dias\nequipa DIOGO DIAS | KW Coastline | AMI 24 232\nwww.edd.pt';
-
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-
-      var nome = form.querySelector('#nome').value.trim();
-      var email = form.querySelector('#email').value.trim();
-      var honey = form.querySelector('[name="_honey"]').value;
-
-      if (honey) return;
-      if (!nome || !email) return;
-
-      var prevErr = form.querySelector('.form-error');
-      if (prevErr) prevErr.parentNode.removeChild(prevErr);
-
-      btn.disabled = true;
-      btn.textContent = 'A enviar…';
-
-      var data = new FormData();
-      data.append('nome', nome);
-      data.append('email', email);
-      data.append('_subject', 'Novo pedido — Guia do Vendedor | edd.pt');
-      data.append('_autoresponder', autorespMessage);
-      data.append('_template', 'table');
-      data.append('_captcha', 'false');
-
-      fetch('https://formsubmit.co/ajax/diogo.dias@kwportugal.pt', {
-        method: 'POST',
-        headers: { 'Accept': 'application/json' },
-        body: data
-      })
-      .then(function (res) { return res.ok ? res.json() : Promise.reject(res.status); })
-      .then(function () {
-        var wrap = form.closest('.form-wrap') || form.parentNode;
-        wrap.innerHTML =
-          '<div class="form-success">' +
-          '<div class="check-icon">✓</div>' +
-          '<h3>Guia enviado para o seu e-mail!</h3>' +
-          '<p>Vai receber o link de acesso ao Guia no e-mail que indicou. Verifique também a pasta de spam caso não o receba nos primeiros minutos.</p>' +
-          '<p class="spam-note">Qualquer questão, contacte-nos em <a href="mailto:diogo.dias@kwportugal.pt" style="color:var(--latao);">diogo.dias@kwportugal.pt</a></p>' +
-          '</div>';
-      })
-      .catch(function () {
-        btn.disabled = false;
-        btn.textContent = 'Quero receber o Guia';
-        var err = document.createElement('p');
-        err.className = 'form-error';
-        err.textContent = 'Não foi possível enviar. Por favor tente novamente ou contacte-nos em diogo.dias@kwportugal.pt.';
-        btn.insertAdjacentElement('afterend', err);
-      });
-    });
-  })();
-  </script>
 
   <!-- Carousel de testemunhos -->
   <script>
