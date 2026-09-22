@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia do Vendedor Gratuito — Como Vender a sua Casa | Equipa Diogo Dias</title>
+  <meta name="description" content="Receba gratuitamente o Guia do Vendedor da equipa Diogo Dias. 26 páginas com um passo a passo para preparar, promover, negociar e concluir a venda da sua casa em Portugal.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://edd.pt/guia-do-vendedor.html">
+
+  <meta property="og:title" content="Guia do Vendedor Gratuito — Equipa Diogo Dias">
+  <meta property="og:description" content="26 páginas passo a passo para vender a sua casa em Portugal. Gratuito e sem compromisso.">
+  <meta property="og:url" content="https://edd.pt/guia-do-vendedor.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://edd.pt/assets/og-edd.webp">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="/assets/analytics.js"></script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --tinta: #0E1218;
+      --latao: #B8935A;
+      --linho: #F2EDE4;
+      --pedra: #D8CFBE;
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-ui: 'Outfit', system-ui, sans-serif;
+      --gutter: clamp(1.25rem, 5vw, 2.5rem);
+      --max-w: 1100px;
+    }
+
+    body {
+      background: var(--tinta);
+      color: var(--linho);
+      font-family: var(--font-ui);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { color: inherit; }
+
+    .container {
+      width: 100%;
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 var(--gutter);
+    }
+
+    .eyebrow {
+      font-family: var(--font-ui);
+      font-size: 0.6875rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--latao);
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    /* =====================
+       HEADER
+       ===================== */
+    .lp-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(14, 18, 24, 0.96);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(184, 147, 90, 0.15);
+      padding: 0.875rem 0;
+    }
+
+    .lp-header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .lp-logo img { height: 28px; }
+
+    .lp-header-cta {
+      font-family: var(--font-ui);
+      font-size: 0.8125rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      color: var(--latao);
+      text-decoration: none;
+      border: 1px solid rgba(184, 147, 90, 0.4);
+      padding: 0.5rem 1.25rem;
+      border-radius: 2px;
+      transition: background 0.2s, color 0.2s;
+      white-space: nowrap;
+    }
+
+    .lp-header-cta:hover { background: var(--latao); color: #fff; }
+
+    /* =====================
+       S1 — HERO
+       ===================== */
+    .s-hero {
+      background: var(--tinta);
+      padding: 4.5rem 0 3.5rem;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .hero-content { text-align: center; }
+
+    .hero-h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.25rem, 6vw, 3.5rem);
+      font-weight: 300;
+      line-height: 1.15;
+      color: var(--linho);
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-lead {
+      font-size: 1.0625rem;
+      color: rgba(242, 237, 228, 0.75);
+      line-height: 1.75;
+      margin-bottom: 2rem;
+      max-width: 560px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-benefits {
+      list-style: none;
+      margin-bottom: 2.5rem;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .hero-benefits li {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.9375rem;
+      color: rgba(242, 237, 228, 0.8);
+      margin-bottom: 0.625rem;
+    }
+
+    .hero-benefits li::before {
+      content: '✓';
+      color: var(--latao);
+      font-weight: 600;
+      flex-shrink: 0;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background: var(--latao);
+      color: #fff;
+      text-decoration: none;
+      font-family: var(--font-ui);
+      font-size: 0.9375rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      padding: 1rem 2.25rem;
+      border-radius: 2px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s;
+      width: 100%;
+      text-align: center;
+    }
+
+    .btn-primary:hover { background: #a07d4a; }
+
+    .microcopy {
+      font-size: 0.8125rem;
+      color: rgba(242, 237, 228, 0.35);
+      margin-top: 0.875rem;
+    }
+
+    .hero-image {
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-image img {
+      max-width: 420px;
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    @media (min-width: 900px) {
+      .hero-grid {
+        grid-template-columns: 1fr 480px;
+        gap: 4rem;
+      }
+
+      .hero-content { text-align: left; }
+
+      .hero-lead {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .hero-benefits { display: block; }
+
+      .btn-primary { width: auto; }
+
+      .hero-image img { max-width: 100%; }
+    }
+
+    /* =====================
+       S2 — PORQUE É ÚTIL
+       ===================== */
+    .s-porque {
+      background: var(--linho);
+      color: var(--tinta);
+      padding: 5rem 0;
+    }
+
+    .s-porque .eyebrow { color: var(--latao); }
+
+    .s-porque h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.875rem, 4vw, 2.75rem);
+      font-weight: 300;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+      max-width: 680px;
+    }
+
+    .porque-text { max-width: 640px; }
+
+    .porque-text p {
+      font-size: 1rem;
+      color: rgba(14, 18, 24, 0.75);
+      line-height: 1.85;
+      margin-bottom: 1.25rem;
+    }
+
+    .porque-text p:last-child { margin-bottom: 0; }
+
+    /* =====================
+       S3 — O QUE VAI ENCONTRAR
+       ===================== */
+    .s-conteudo {
+      background: var(--tinta);
+      padding: 5rem 0;
+    }
+
+    .s-conteudo .section-header { margin-bottom: 1rem; }
+
+    .s-conteudo h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.875rem, 4vw, 2.75rem);
+      font-weight: 300;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+      max-width: 680px;
+    }
+
+    .intro-text {
+      font-size: 1rem;
+      color: rgba(242, 237, 228, 0.65);
+      line-height: 1.75;
+      max-width: 600px;
+      margin-bottom: 3rem;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    @media (min-width: 680px) {
+      .cards-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(184, 147, 90, 0.18);
+      border-radius: 4px;
+      padding: 2rem;
+    }
+
+    .card-num {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      font-weight: 300;
+      color: rgba(184, 147, 90, 0.25);
+      line-height: 1;
+      margin-bottom: 0.875rem;
+    }
+
+    .card h3 {
+      font-family: var(--font-display);
+      font-size: 1.3125rem;
+      font-weight: 400;
+      color: var(--linho);
+      margin-bottom: 0.625rem;
+    }
+
+    .card-intro {
+      font-size: 0.875rem;
+      color: rgba(242, 237, 228, 0.55);
+      line-height: 1.65;
+      margin-bottom: 1.25rem;
+    }
+
+    .card-topics {
+      list-style: none;
+      border-top: 1px solid rgba(255, 255, 255, 0.07);
+      padding-top: 1.125rem;
+    }
+
+    .card-topics li {
+      font-size: 0.8125rem;
+      color: rgba(242, 237, 228, 0.5);
+      padding: 0.25rem 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.625rem;
+      line-height: 1.5;
+    }
+
+    .card-topics li::before {
+      content: '—';
+      color: rgba(184, 147, 90, 0.5);
+      flex-shrink: 0;
+      margin-top: 0.05em;
+    }
+
+    .closing-text {
+      font-family: var(--font-display);
+      font-size: 1.125rem;
+      font-style: italic;
+      color: rgba(242, 237, 228, 0.5);
+      text-align: center;
+      max-width: 580px;
+      margin: 3.5rem auto 0;
+      line-height: 1.6;
+    }
+
+    .mockup-center {
+      text-align: center;
+      margin-top: 3.5rem;
+    }
+
+    .mockup-center img {
+      max-width: 500px;
+      width: 100%;
+      margin: 0 auto;
+      border-radius: 4px;
+    }
+
+    /* =====================
+       S4 — FORMULÁRIO
+       ===================== */
+    .s-form {
+      background: var(--linho);
+      color: var(--tinta);
+      padding: 5rem 0;
+    }
+
+    .s-form .eyebrow { color: var(--latao); }
+
+    .form-wrap { max-width: 520px; }
+
+    .s-form h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.875rem, 4vw, 2.75rem);
+      font-weight: 300;
+      line-height: 1.2;
+      margin-bottom: 0.875rem;
+    }
+
+    .s-form .support-text {
+      font-size: 1rem;
+      color: rgba(14, 18, 24, 0.65);
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+
+    .form-perks {
+      list-style: none;
+      margin-bottom: 2.25rem;
+    }
+
+    .form-perks li {
+      display: flex;
+      align-items: center;
+      gap: 0.625rem;
+      font-size: 0.9rem;
+      color: rgba(14, 18, 24, 0.7);
+      margin-bottom: 0.5rem;
+    }
+
+    .form-perks li::before {
+      content: '✓';
+      color: var(--latao);
+      font-weight: 600;
+      flex-shrink: 0;
+    }
+
+    .lp-form .field { margin-bottom: 1.25rem; }
+
+    .lp-form label {
+      display: block;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: rgba(14, 18, 24, 0.65);
+      margin-bottom: 0.375rem;
+      letter-spacing: 0.03em;
+    }
+
+    .lp-form input {
+      width: 100%;
+      background: rgba(14, 18, 24, 0.05);
+      border: 1px solid rgba(14, 18, 24, 0.18);
+      border-radius: 2px;
+      padding: 0.9rem 1rem;
+      font-family: var(--font-ui);
+      font-size: 1rem;
+      color: var(--tinta);
+      transition: border-color 0.2s, background 0.2s;
+      -webkit-appearance: none;
+    }
+
+    .lp-form input::placeholder { color: rgba(14, 18, 24, 0.3); }
+
+    .lp-form input:focus {
+      outline: none;
+      border-color: var(--latao);
+      background: #fff;
+    }
+
+    .lp-form .honey { display: none; }
+
+    .btn-submit {
+      width: 100%;
+      background: var(--latao);
+      color: #fff;
+      border: none;
+      border-radius: 2px;
+      padding: 1rem 2rem;
+      font-family: var(--font-ui);
+      font-size: 0.9375rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      transition: background 0.2s;
+      margin-top: 0.375rem;
+    }
+
+    .btn-submit:hover { background: #a07d4a; }
+    .btn-submit:disabled { opacity: 0.65; cursor: not-allowed; }
+
+    .form-microcopy {
+      font-size: 0.8rem;
+      color: rgba(14, 18, 24, 0.38);
+      margin-top: 0.875rem;
+      text-align: center;
+    }
+
+    .form-error {
+      background: rgba(192, 57, 43, 0.08);
+      border: 1px solid rgba(192, 57, 43, 0.3);
+      border-radius: 2px;
+      padding: 0.75rem 1rem;
+      font-size: 0.875rem;
+      color: #9b2335;
+      margin-top: 1rem;
+    }
+
+    .form-success {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: rgba(184, 147, 90, 0.08);
+      border: 1px solid rgba(184, 147, 90, 0.25);
+      border-radius: 4px;
+    }
+
+    .form-success .check-icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: rgba(184, 147, 90, 0.12);
+      border: 2px solid var(--latao);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    .form-success h3 {
+      font-family: var(--font-display);
+      font-size: 1.875rem;
+      font-weight: 300;
+      color: var(--tinta);
+      margin-bottom: 0.75rem;
+    }
+
+    .form-success p {
+      color: rgba(14, 18, 24, 0.65);
+      font-size: 0.9375rem;
+      margin-bottom: 1.75rem;
+      line-height: 1.7;
+    }
+
+    .btn-download {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.625rem;
+      background: var(--latao);
+      color: #fff;
+      text-decoration: none;
+      padding: 0.9rem 2rem;
+      border-radius: 2px;
+      font-family: var(--font-ui);
+      font-size: 0.9375rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      transition: background 0.2s;
+    }
+
+    .btn-download:hover { background: #a07d4a; }
+
+    .form-success .spam-note {
+      font-size: 0.8125rem;
+      color: rgba(14, 18, 24, 0.4);
+      margin-top: 1.25rem;
+      margin-bottom: 0;
+    }
+
+    /* =====================
+       S5 — AUTOR
+       ===================== */
+    .s-autor {
+      background: var(--tinta);
+      padding: 5rem 0;
+    }
+
+    .s-autor h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.875rem, 4vw, 2.75rem);
+      font-weight: 300;
+      line-height: 1.2;
+      max-width: 640px;
+      margin-bottom: 3rem;
+    }
+
+    .autor-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    @media (min-width: 800px) {
+      .autor-grid { grid-template-columns: 300px 1fr; }
+    }
+
+    .autor-photo {
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .autor-photo img {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      object-position: top center;
+    }
+
+    .autor-text p {
+      font-size: 1rem;
+      color: rgba(242, 237, 228, 0.72);
+      line-height: 1.85;
+      margin-bottom: 3rem;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+
+    .stat-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(184, 147, 90, 0.18);
+      border-radius: 4px;
+      padding: 1.5rem;
+    }
+
+    .stat-number {
+      font-family: var(--font-display);
+      font-size: 2.25rem;
+      font-weight: 300;
+      color: var(--latao);
+      line-height: 1;
+      margin-bottom: 0.375rem;
+    }
+
+    .stat-label {
+      font-size: 0.8125rem;
+      color: rgba(242, 237, 228, 0.45);
+      line-height: 1.4;
+    }
+
+    /* =====================
+       S6 — PARA QUEM É
+       ===================== */
+    .s-para-quem {
+      background: var(--linho);
+      color: var(--tinta);
+      padding: 5rem 0;
+    }
+
+    .s-para-quem .eyebrow { color: var(--latao); }
+
+    .s-para-quem h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.875rem, 4vw, 2.75rem);
+      font-weight: 300;
+      line-height: 1.2;
+      margin-bottom: 2.5rem;
+      max-width: 580px;
+    }
+
+    .para-quem-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+
+    @media (min-width: 700px) {
+      .para-quem-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .pq-card {
+      background: rgba(14, 18, 24, 0.04);
+      border: 1px solid rgba(14, 18, 24, 0.1);
+      border-left: 3px solid var(--latao);
+      border-radius: 0 4px 4px 0;
+      padding: 2rem;
+    }
+
+    .pq-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.3125rem;
+      font-weight: 400;
+      color: var(--tinta);
+      margin-bottom: 1rem;
+      line-height: 1.3;
+    }
+
+    .pq-card p {
+      font-size: 0.9375rem;
+      color: rgba(14, 18, 24, 0.68);
+      line-height: 1.8;
+    }
+
+    .para-quem-fecho {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 300;
+      font-style: italic;
+      color: rgba(14, 18, 24, 0.5);
+    }
+
+    /* =====================
+       S7 — TESTEMUNHOS
+       ===================== */
+    .s-testemunhos {
+      background: var(--tinta);
+      padding: 5rem 0;
+      overflow: hidden;
+    }
+
+    .s-testemunhos h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.875rem, 4vw, 2.75rem);
+      font-weight: 300;
+      margin-bottom: 0.75rem;
+    }
+
+    .s-testemunhos .support-text {
+      font-size: 0.9375rem;
+      color: rgba(242, 237, 228, 0.55);
+      margin-bottom: 3rem;
+      max-width: 540px;
+    }
+
+    .carousel { position: relative; }
+
+    .carousel-viewport { overflow: hidden; }
+
+    .carousel-track {
+      display: flex;
+      will-change: transform;
+      transition: transform 0.42s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+
+    .carousel-slide {
+      flex: 0 0 100%;
+      padding: 0 0.375rem;
+    }
+
+    @media (min-width: 800px) {
+      .carousel-slide { flex: 0 0 33.3333%; }
+    }
+
+    .carousel-slide img {
+      width: 100%;
+      border-radius: 4px;
+      display: block;
+    }
+
+    .carousel-nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .carousel-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 1px solid rgba(184, 147, 90, 0.4);
+      background: transparent;
+      color: var(--latao);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, border-color 0.2s;
+      flex-shrink: 0;
+    }
+
+    .carousel-btn:hover:not(:disabled) {
+      background: rgba(184, 147, 90, 0.12);
+      border-color: var(--latao);
+    }
+
+    .carousel-btn:disabled { opacity: 0.25; cursor: not-allowed; }
+
+    .carousel-dots {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .carousel-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.18);
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .carousel-dot.active {
+      background: var(--latao);
+      transform: scale(1.4);
+    }
+
+    /* =====================
+       S8 — CTA FINAL
+       ===================== */
+    .s-cta-final {
+      background: #0c0f15;
+      border-top: 1px solid rgba(184, 147, 90, 0.18);
+      border-bottom: 1px solid rgba(184, 147, 90, 0.18);
+      padding: 5rem 0;
+    }
+
+    .cta-final-inner {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .s-cta-final h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      font-weight: 300;
+      line-height: 1.15;
+      margin-bottom: 1rem;
+    }
+
+    .s-cta-final .support-text {
+      font-size: 1rem;
+      color: rgba(242, 237, 228, 0.65);
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+
+    .cta-perks {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .cta-perks li {
+      font-size: 0.9rem;
+      color: rgba(242, 237, 228, 0.6);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .cta-perks li::before {
+      content: '✓';
+      color: var(--latao);
+      font-weight: 600;
+    }
+
+    /* =====================
+       S9 — FAQ
+       ===================== */
+    .s-faq {
+      background: var(--linho);
+      color: var(--tinta);
+      padding: 5rem 0;
+    }
+
+    .s-faq .eyebrow { color: var(--latao); }
+
+    .s-faq h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.875rem, 4vw, 2.75rem);
+      font-weight: 300;
+      margin-bottom: 3rem;
+    }
+
+    .faq-list { max-width: 740px; }
+
+    .faq-item {
+      border-bottom: 1px solid rgba(14, 18, 24, 0.1);
+      padding: 2rem 0;
+    }
+
+    .faq-item:first-child { border-top: 1px solid rgba(14, 18, 24, 0.1); }
+
+    .faq-q {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: var(--tinta);
+      margin-bottom: 0.875rem;
+      line-height: 1.3;
+    }
+
+    .faq-a {
+      font-size: 0.9375rem;
+      color: rgba(14, 18, 24, 0.65);
+      line-height: 1.8;
+    }
+
+    .faq-a p + p { margin-top: 0.75rem; }
+
+    .faq-a ul {
+      margin-top: 0.625rem;
+      padding-left: 1.375rem;
+    }
+
+    .faq-a ul li { margin-bottom: 0.375rem; }
+
+    /* =====================
+       FOOTER
+       ===================== */
+    .lp-footer {
+      background: var(--tinta);
+      border-top: 1px solid rgba(184, 147, 90, 0.12);
+      padding: 3.5rem 0;
+      text-align: center;
+    }
+
+    .footer-logo { margin-bottom: 0.625rem; }
+    .footer-logo img { height: 28px; margin: 0 auto; }
+
+    .footer-slogan {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      font-style: italic;
+      color: rgba(242, 237, 228, 0.35);
+      margin-bottom: 2rem;
+    }
+
+    .footer-legal {
+      font-size: 0.8125rem;
+      color: rgba(242, 237, 228, 0.3);
+      line-height: 1.7;
+    }
+
+    .footer-legal a {
+      color: rgba(184, 147, 90, 0.55);
+      text-decoration: none;
+    }
+
+    .footer-legal a:hover { color: var(--latao); }
+  </style>
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="lp-header">
+    <div class="container">
+      <a href="/" class="lp-logo">
+        <img src="/assets/logo-negativo.svg" alt="Equipa Diogo Dias" height="28">
+      </a>
+      <a href="#formulario" class="lp-header-cta">Receber o Guia</a>
+    </div>
+  </header>
+
+
+  <!-- ===================== S1: HERO ===================== -->
+  <section class="s-hero">
+    <div class="container">
+      <div class="hero-grid">
+
+        <div class="hero-content">
+          <span class="eyebrow">Guia Gratuito para Proprietários</span>
+          <h1 class="hero-h1">Quer vender a sua casa? Saiba por onde começar.</h1>
+          <p class="hero-lead">Receba gratuitamente o nosso Guia do Vendedor e descubra, passo a passo, como preparar, promover, negociar e concluir a venda da sua casa.</p>
+          <ul class="hero-benefits">
+            <li>Defina o preço e a estratégia de venda</li>
+            <li>Prepare e promova a sua casa</li>
+            <li>Analise e negoceie propostas com mais segurança</li>
+          </ul>
+          <a href="#formulario" class="btn-primary">Quero receber o Guia</a>
+          <p class="microcopy">Gratuito. Sem compromisso. Recebe por e-mail.</p>
+        </div>
+
+        <div class="hero-image">
+          <img src="/assets/mockup-hero.png" alt="Guia do Vendedor — Equipa Diogo Dias" loading="eager">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===================== S2: PORQUE É ÚTIL ===================== -->
+  <section class="s-porque">
+    <div class="container">
+      <span class="eyebrow">Antes de Colocar a sua Casa à Venda</span>
+      <h2>Vender uma casa começa muito antes de publicar um anúncio.</h2>
+      <div class="porque-text">
+        <p>É preciso definir uma estratégia, perceber o preço, preparar a casa e a documentação, escolher como a promover e saber o que fazer quando começam a chegar visitas e propostas.</p>
+        <p>O nosso Guia do Vendedor foi criado para lhe dar uma visão clara de todo este processo, antes de tomar decisões que podem custar tempo, dinheiro ou margem de negociação.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===================== S3: O QUE VAI ENCONTRAR ===================== -->
+  <section class="s-conteudo">
+    <div class="container">
+
+      <span class="eyebrow">O Que Vai Encontrar no Guia</span>
+      <h2>Um passo a passo para perceber todo o processo de venda.</h2>
+      <p class="intro-text">Da decisão de vender até à escritura, reunimos os principais temas que deve conhecer para tomar decisões mais informadas em cada etapa.</p>
+
+      <div class="cards-grid">
+
+        <div class="card">
+          <div class="card-num">01</div>
+          <h3>Antes de colocar a casa à venda</h3>
+          <p class="card-intro">Perceba porque está a vender, quais são os seus objetivos e como escolher quem o vai acompanhar.</p>
+          <ul class="card-topics">
+            <li>Motivo e objetivos da venda</li>
+            <li>Escolha do consultor imobiliário</li>
+            <li>Contrato de Mediação Imobiliária</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-num">02</div>
+          <h3>Preparar a casa e definir a estratégia</h3>
+          <p class="card-intro">Saiba como analisar o preço, preparar o imóvel e organizar a documentação antes de entrar no mercado.</p>
+          <ul class="card-topics">
+            <li>Estratégia de preço</li>
+            <li>Preparação e apresentação da casa</li>
+            <li>Documentação</li>
+            <li>Fotografia e vídeo</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-num">03</div>
+          <h3>Promover, receber visitas e gerar interesse</h3>
+          <p class="card-intro">Perceba como posicionar a sua casa, promovê-la e preparar cada visita para causar a melhor impressão.</p>
+          <ul class="card-topics">
+            <li>Posicionamento e promoção</li>
+            <li>Qualificação de compradores</li>
+            <li>Organização das visitas</li>
+            <li>Preparação da casa para receber interessados</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-num">04</div>
+          <h3>Analisar propostas e concluir a venda</h3>
+          <p class="card-intro">Saiba como avaliar propostas, negociar condições e acompanhar os passos finais até à escritura.</p>
+          <ul class="card-topics">
+            <li>Análise e negociação de propostas</li>
+            <li>Financiamento vs. capitais próprios</li>
+            <li>CPCV</li>
+            <li>Escritura e pós-venda</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <p class="closing-text">Tudo organizado para que perceba o que fazer, quando fazer e o que deve considerar em cada fase.</p>
+
+      <div class="mockup-center">
+        <img src="/assets/mockup-guia.png" alt="Prévia do interior do Guia do Vendedor" loading="lazy">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ===================== S4: CTA + FORMULÁRIO ===================== -->
+  <section class="s-form" id="formulario">
+    <div class="container">
+      <div class="form-wrap">
+
+        <span class="eyebrow">Receba o Guia Gratuitamente</span>
+        <h2>Receba o nosso Guia do Vendedor no seu e-mail.</h2>
+        <p class="support-text">Preencha os seus dados e receba o Guia do Vendedor para consultar quando quiser.</p>
+
+        <ul class="form-perks">
+          <li>Demora menos de 10 segundos</li>
+          <li>É completamente gratuito</li>
+          <li>Recebe o Guia diretamente no seu e-mail</li>
+        </ul>
+
+        <form class="lp-form" id="guia-form" novalidate>
+
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="O seu nome" required autocomplete="given-name">
+          </div>
+
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="O seu melhor e-mail" required autocomplete="email">
+          </div>
+
+          <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
+
+          <button type="submit" class="btn-submit">Quero receber o Guia</button>
+
+          <p class="form-microcopy">Gratuito. Sem compromisso. Recebe por e-mail.</p>
+
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===================== S5: QUEM ESTÁ POR TRÁS ===================== -->
+  <section class="s-autor">
+    <div class="container">
+
+      <span class="eyebrow">Experiência Que Conta</span>
+      <h2>Conhecimento técnico, experiência de mercado e centenas de transações realizadas.</h2>
+
+      <div class="autor-grid">
+
+        <div class="autor-photo">
+          <img src="/assets/diogo-dias-apresentacao.webp" alt="Diogo Dias — Consultor Imobiliário AMI 24232" loading="lazy">
+        </div>
+
+        <div class="autor-text">
+          <p>Sou Diogo Dias. Antes de entrar no mercado imobiliário, trabalhei durante 16 anos como Engenheiro Civil, ligado à coordenação e execução de projetos de elevada dimensão e complexidade.</p>
+          <p>Nos últimos 7 anos tenho aplicado essa mesma forma de trabalhar ao imobiliário: analisar antes de decidir, preparar antes de promover e acompanhar cada etapa com método, rigor e transparência.</p>
+          <p>Foi dessa experiência que nasceu este Guia do Vendedor: reunir, de forma simples e prática, aquilo que considero essencial um proprietário conhecer antes e durante a venda da sua casa.</p>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number">+223</div>
+              <div class="stat-label">Transações concretizadas</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">7 anos</div>
+              <div class="stat-label">No mercado imobiliário</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">+30 M€</div>
+              <div class="stat-label">Volume transacionado</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">5/5</div>
+              <div class="stat-label">Avaliação no Google</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===================== S6: PARA QUEM É ===================== -->
+  <section class="s-para-quem">
+    <div class="container">
+
+      <span class="eyebrow">Para Quem É Este Guia</span>
+      <h2>Se está numa destas situações, este Guia foi pensado para si.</h2>
+
+      <div class="para-quem-grid">
+
+        <div class="pq-card">
+          <h3>Está a pensar vender ou trocar de casa</h3>
+          <p>Quer perceber por onde começar, quais são os passos que deve preparar e que decisões terá de tomar antes de colocar a sua casa no mercado. O importante, nesta fase, é perceber o processo antes de decidir.</p>
+        </div>
+
+        <div class="pq-card">
+          <h3>Já está a vender, mas os resultados não são os esperados</h3>
+          <p>Tem poucas visitas, não recebe propostas ou sente que a estratégia pode não estar a produzir o resultado esperado. O Guia ajuda-o a rever os principais fatores que podem estar a influenciar a venda.</p>
+        </div>
+
+      </div>
+
+      <p class="para-quem-fecho">Não precisa de ter decidido como vai vender. Primeiro, precisa de perceber o que está envolvido.</p>
+
+    </div>
+  </section>
+
+
+  <!-- ===================== S7: TESTEMUNHOS ===================== -->
+  <section class="s-testemunhos">
+    <div class="container">
+
+      <span class="eyebrow">O Que Dizem os Nossos Clientes</span>
+      <h2>A confiança constrói-se com resultados e experiências reais.</h2>
+      <p class="support-text">Algumas das avaliações partilhadas no Google por clientes que já confiaram na equipa Diogo Dias.</p>
+
+      <div class="carousel" id="carousel">
+        <div class="carousel-viewport">
+          <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-slide">
+              <img src="/assets/testemunho-david-cardoso.jpg" alt="Testemunho — David Cardoso" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+              <img src="/assets/testemunho-joao-dias.jpg" alt="Testemunho — João Dias" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+              <img src="/assets/testemunho-kimberly.jpg" alt="Testemunho — Kimberly" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+              <img src="/assets/testemunho-duarte-vargas.jpg" alt="Testemunho — Duarte Vargas" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+              <img src="/assets/testemunho-dolores-nobre.jpg" alt="Testemunho — Dolores Nobre" loading="lazy">
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-nav">
+          <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Anterior">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          </button>
+
+          <div class="carousel-dots" id="carouselDots">
+            <button class="carousel-dot active" aria-label="Testemunho 1"></button>
+            <button class="carousel-dot" aria-label="Testemunho 2"></button>
+            <button class="carousel-dot" aria-label="Testemunho 3"></button>
+            <button class="carousel-dot" aria-label="Testemunho 4"></button>
+            <button class="carousel-dot" aria-label="Testemunho 5"></button>
+          </div>
+
+          <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Seguinte">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ===================== S8: CTA FINAL ===================== -->
+  <section class="s-cta-final">
+    <div class="container">
+      <div class="cta-final-inner">
+
+        <span class="eyebrow">Guia Gratuito do Vendedor</span>
+        <h2>Quer vender a sua casa? Comece por se preparar melhor.</h2>
+        <p class="support-text">Receba gratuitamente o nosso Guia do Vendedor e tenha consigo um passo a passo para consultar ao longo de todo o processo.</p>
+
+        <ul class="cta-perks">
+          <li>26 páginas de informação prática</li>
+          <li>Passo a passo, da preparação à escritura</li>
+          <li>Gratuito e sem compromisso</li>
+        </ul>
+
+        <a href="#formulario" class="btn-primary">Quero receber o Guia</a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===================== S9: FAQ ===================== -->
+  <section class="s-faq">
+    <div class="container">
+
+      <span class="eyebrow">Perguntas Frequentes</span>
+      <h2>Ainda tem dúvidas sobre o Guia?</h2>
+
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <p class="faq-q">O que vou receber?</p>
+          <div class="faq-a">
+            <p>Vai receber o nosso Guia do Vendedor, um documento com 26 páginas criado para o ajudar a compreender as principais etapas de uma venda, desde a preparação inicial até à negociação e conclusão do negócio. O Guia percorre efetivamente todo este processo e termina com um faseamento desde a análise da necessidade até à escritura e pós-venda.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-q">O que vou aprender?</p>
+          <div class="faq-a">
+            <p>Entre outros temas, vai perceber como:</p>
+            <ul>
+              <li>Definir uma estratégia e um preço de promoção</li>
+              <li>Preparar a sua casa e a documentação</li>
+              <li>Promover o imóvel e organizar visitas</li>
+              <li>Analisar e negociar propostas</li>
+              <li>Preparar as etapas seguintes até à conclusão da venda</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-q">Para quem é este Guia?</p>
+          <div class="faq-a">
+            <p>Este Guia é especialmente útil em duas situações:</p>
+            <ul>
+              <li><strong>Está a pensar vender ou trocar de casa</strong> — quer perceber por onde começar, o que deve preparar e que decisões terá de tomar antes de avançar.</li>
+              <li><strong>Já tem a sua casa à venda</strong> — mas não está a obter os resultados esperados e quer perceber o que poderá rever ou melhorar na estratégia.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-q">Preciso de trabalhar com a equipa Diogo Dias para receber o Guia?</p>
+          <div class="faq-a">
+            <p>Não. O Guia pode ser solicitado gratuitamente e não implica qualquer compromisso de contratação.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-q">É mesmo gratuito?</p>
+          <div class="faq-a">
+            <p>Sim. É completamente gratuito e não existe qualquer compromisso associado à sua solicitação.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-q">Como vou receber o Guia?</p>
+          <div class="faq-a">
+            <p>Depois de preencher o formulário, o Guia será enviado para o e-mail indicado. Verifique também a pasta de spam caso não o receba nos primeiros minutos.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===================== S10: RODAPÉ ===================== -->
+  <footer class="lp-footer">
+    <div class="container">
+
+      <div class="footer-logo">
+        <a href="/"><img src="/assets/logo-negativo.svg" alt="Equipa Diogo Dias" height="28"></a>
+      </div>
+
+      <p class="footer-slogan">Criamos relações de confiança.</p>
+
+      <p class="footer-legal">
+        © 2026 equipa DIOGO DIAS. Todos os direitos reservados.<br>
+        Mediação Imobiliária: KW Coastline | AMI 24 232<br>
+        <a href="/politica-privacidade.html">Política de Privacidade</a> · <a href="/termos-e-condicoes.html">Termos e Condições</a>
+      </p>
+
+    </div>
+  </footer>
+
+
+  <!-- ===================== SCRIPTS ===================== -->
+
+  <!-- Formulário -->
+  <script>
+  (function () {
+    var form = document.getElementById('guia-form');
+    if (!form) return;
+    var btn = form.querySelector('.btn-submit');
+    var autorespMessage = 'Olá,\n\nObrigado por solicitar o Guia do Vendedor da equipa Diogo Dias.\n\nO seu Guia está disponível para descarregar através do link abaixo:\nhttps://edd.pt/assets/guia-do-vendedor.pdf\n\nEste guia foi criado para o ajudar a compreender todas as etapas de uma venda imobiliária, desde a preparação inicial até à escritura.\n\nPara qualquer dúvida, estamos disponíveis em diogo.dias@kwportugal.pt ou pelo 963 399 343.\n\nCom os melhores cumprimentos,\nDiogo Dias\nequipa DIOGO DIAS | KW Coastline | AMI 24 232\nwww.edd.pt';
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      var nome = form.querySelector('#nome').value.trim();
+      var email = form.querySelector('#email').value.trim();
+      var honey = form.querySelector('[name="_honey"]').value;
+
+      if (honey) return;
+      if (!nome || !email) return;
+
+      var prevErr = form.querySelector('.form-error');
+      if (prevErr) prevErr.parentNode.removeChild(prevErr);
+
+      btn.disabled = true;
+      btn.textContent = 'A enviar…';
+
+      var data = new FormData();
+      data.append('nome', nome);
+      data.append('email', email);
+      data.append('_subject', 'Novo pedido — Guia do Vendedor | edd.pt');
+      data.append('_autoresponder', autorespMessage);
+      data.append('_template', 'table');
+      data.append('_captcha', 'false');
+
+      fetch('https://formsubmit.co/ajax/diogo.dias@kwportugal.pt', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: data
+      })
+      .then(function (res) { return res.ok ? res.json() : Promise.reject(res.status); })
+      .then(function () {
+        var wrap = form.closest('.form-wrap') || form.parentNode;
+        wrap.innerHTML =
+          '<div class="form-success">' +
+          '<div class="check-icon">✓</div>' +
+          '<h3>Guia enviado para o seu e-mail!</h3>' +
+          '<p>Verifique a sua caixa de entrada (e a pasta de spam, caso não o encontre nos primeiros minutos).</p>' +
+          '<a href="/assets/guia-do-vendedor.pdf" class="btn-download" download>' +
+          '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>' +
+          'Descarregar o Guia agora' +
+          '</a>' +
+          '<p class="spam-note">Ou aceda directamente pelo link acima.</p>' +
+          '</div>';
+      })
+      .catch(function () {
+        btn.disabled = false;
+        btn.textContent = 'Quero receber o Guia';
+        var err = document.createElement('p');
+        err.className = 'form-error';
+        err.textContent = 'Não foi possível enviar. Por favor tente novamente ou contacte-nos em diogo.dias@kwportugal.pt.';
+        btn.insertAdjacentElement('afterend', err);
+      });
+    });
+  })();
+  </script>
+
+  <!-- Carousel de testemunhos -->
+  <script>
+  (function () {
+    var track = document.getElementById('carouselTrack');
+    var prevBtn = document.getElementById('carouselPrev');
+    var nextBtn = document.getElementById('carouselNext');
+    var dots = document.querySelectorAll('.carousel-dot');
+    var slides = track ? track.querySelectorAll('.carousel-slide') : [];
+    var current = 0;
+    var startX = 0;
+
+    if (!track || slides.length === 0) return;
+
+    function visibleCount() {
+      return window.matchMedia('(min-width: 800px)').matches ? 3 : 1;
+    }
+
+    function maxIndex() {
+      return Math.max(0, slides.length - visibleCount());
+    }
+
+    function update(animate) {
+      if (animate === false) {
+        track.style.transition = 'none';
+      } else {
+        track.style.transition = 'transform 0.42s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+      }
+      var slideW = slides[0].offsetWidth;
+      track.style.transform = 'translateX(-' + (current * slideW) + 'px)';
+
+      dots.forEach(function (d, i) { d.classList.toggle('active', i === current); });
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current >= maxIndex();
+    }
+
+    prevBtn.addEventListener('click', function () {
+      if (current > 0) { current--; update(); }
+    });
+
+    nextBtn.addEventListener('click', function () {
+      if (current < maxIndex()) { current++; update(); }
+    });
+
+    dots.forEach(function (d, i) {
+      d.addEventListener('click', function () {
+        current = Math.min(i, maxIndex());
+        update();
+      });
+    });
+
+    track.addEventListener('touchstart', function (e) {
+      startX = e.touches[0].clientX;
+    }, { passive: true });
+
+    track.addEventListener('touchend', function (e) {
+      var diff = startX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 48) {
+        if (diff > 0 && current < maxIndex()) { current++; }
+        else if (diff < 0 && current > 0) { current--; }
+        update();
+      }
+    }, { passive: true });
+
+    var resizeTimer;
+    window.addEventListener('resize', function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(function () {
+        current = Math.min(current, maxIndex());
+        update(false);
+      }, 150);
+    });
+
+    update(false);
+  })();
+  </script>
+
+  <script src="/assets/cookie-consent.js"></script>
+
+</body>
+</html>
