@@ -97,16 +97,17 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Outfit:wght@200;300;400;500;600;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400;1,500&family=DM+Sans:wght@700&family=Outfit:wght@200;300;400;500;600;600&display=swap" rel="stylesheet">
 
   <style>
     /* ─── Reset & Base ─── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --tinta:  #0E1218;
+      --tinta:  #1a241d;
+      --floresta: #21483d;
       --latao:  #B8935A;
-      --linho:  #F2EDE4;
+      --linho:  #F5EFE4;
       --pedra:  #D8CFBE;
       --branco: #FFFFFF;
       --texto:  #2C2C2C;
@@ -338,7 +339,9 @@
     .cv-fit-card.yes .cv-fit-icon svg { color: var(--latao); width: 0.875rem; height: 0.875rem; }
     .cv-fit-card.no .cv-fit-icon { background: var(--pedra); }
     .cv-fit-card.no .cv-fit-icon svg { color: var(--texto-suave); width: 0.875rem; height: 0.875rem; }
-    .cv-fit-card h3 { font-size: 1.125rem; margin-bottom: 0.75rem; color: var(--tinta); }
+    .cv-fit-card h3 {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700; font-size: 1.125rem; margin-bottom: 0.75rem; color: var(--tinta); }
     .cv-fit-card p { color: var(--texto-suave); font-size: 0.9375rem; line-height: 1.7; }
     .cv-fit-card p strong { color: var(--tinta); }
 
