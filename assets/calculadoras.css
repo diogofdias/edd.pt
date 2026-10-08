@@ -166,6 +166,6 @@ footer { background: #080B0F; padding: 3rem var(--gutter) 2rem; color: rgba(255,
 .calc-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
 .calc-card { display: flex; flex-direction: column; background: var(--branco); padding: 1.75rem; border-top: 2px solid var(--latao); border-radius: 2px; transition: box-shadow 0.2s; }
 .calc-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-.calc-card h2 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; color: var(--tinta); margin-bottom: 0.625rem; }
+.calc-card h2 { font-family: 'DM Sans', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--tinta); margin-bottom: 0.625rem; }
 .calc-card p { font-size: 0.9375rem; color: var(--suave); line-height: 1.6; flex: 1; }
 .calc-card span { font-family: var(--font-ui); font-size: 0.875rem; font-weight: 500; color: var(--latao); margin-top: 1.25rem; }
