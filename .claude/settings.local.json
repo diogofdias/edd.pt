@@ -66,7 +66,12 @@
       "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_zona_market_data.py\")",
       "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_voice_faq.py\")",
       "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_main_article.py\")",
-      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_aria.py\")"
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_aria.py\")",
+      "Bash(grep -v \"//\\\\|css\\\\|class\\\\|style\\\\|<!--\")",
+      "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_guia_links.py\")",
+      "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_guia_articles.py\")",
+      "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_footer_artigos.py\")",
+      "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_related_3articles.py\")"
     ]
   }
 }
