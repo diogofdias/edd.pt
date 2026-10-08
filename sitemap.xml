@@ -207,6 +207,49 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Calculadoras -->
+  <url>
+    <loc>https://edd.pt/calculadoras/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/calculadoras/imt-imposto-selo.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/calculadoras/prestacao-casa.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/calculadoras/compra-casa.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/calculadoras/venda-casa.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/calculadoras/troca-casa.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Zonas -->
   <url>
     <loc>https://edd.pt/zonas/consultor-imobiliario-almada.html</loc>
