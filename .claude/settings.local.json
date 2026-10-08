@@ -59,7 +59,13 @@
       "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_analytics_defer.py\")",
       "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_og_image_alt.py\")",
       "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_robots_meta.py\")",
-      "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_logo_width.py\")"
+      "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_logo_width.py\")",
+      "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\convert_to_webp.py\")",
+      "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\convert_jpgs_to_webp.py\")",
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\update_jpg_refs.py\")",
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_zona_market_data.py\")",
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_voice_faq.py\")",
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_main_article.py\")"
     ]
   }
 }
