@@ -71,7 +71,17 @@
       "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_guia_links.py\")",
       "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_guia_articles.py\")",
       "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_footer_artigos.py\")",
-      "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_related_3articles.py\")"
+      "Bash(python -I \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_related_3articles.py\")",
+      "mcp__claude-in-chrome__navigate",
+      "mcp__claude-in-chrome__computer",
+      "mcp__claude-in-chrome__get_page_text",
+      "mcp__claude-in-chrome__tabs_close_mcp",
+      "Bash(awk '{print length\\($0\\), $0}')",
+      "Bash(awk '$1 > 65')",
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\list_titles.py\")",
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\list_desc.py\")",
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\check_twitter.py\")",
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_twitter.py\")"
     ]
   }
 }
