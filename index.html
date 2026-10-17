@@ -43,7 +43,7 @@
   "alternateName": "EDD",
   "description": "Consultoria imobiliária especializada na venda de imóveis na Área Metropolitana de Lisboa. Método documentado, avaliação rigorosa, transparência total.",
   "url": "https://edd.pt",
-  "telephone": "+351 963 399 343",
+  "telephone": "+351963399343",
   "email": "diogo.dias@kwportugal.pt",
   "address": {
     "@type": "PostalAddress",
@@ -115,7 +115,7 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "9",
+    "reviewCount": "5",
     "bestRating": "5"
   },
   "sameAs": [
@@ -985,6 +985,7 @@
       margin-top: 1.75rem;
     }
     .carousel-dot {
+      position: relative;
       width: 6px; height: 6px;
       border-radius: 50%;
       background: var(--pedra);
@@ -992,6 +993,11 @@
       cursor: pointer;
       transition: background 0.3s, transform 0.3s;
       padding: 0;
+    }
+    .carousel-dot::before {
+      content: '';
+      position: absolute;
+      top: -19px; left: -19px; right: -19px; bottom: -19px;
     }
     .carousel-dot.active {
       background: var(--latao);
@@ -1309,10 +1315,10 @@
           <a href="#contacto" class="btn btn-primary">Avaliação Gratuita</a>
           <a href="#servicos" class="btn btn-outline">Ver Serviços</a>
         </div>
-        <div class="hero-phone">
+        <a href="tel:+351963399343" class="hero-phone">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"></path></svg>
           963 399 343
-        </div>
+        </a>
       </div>
       <div class="hero-photo-wrap">
         <picture>
