@@ -81,7 +81,10 @@
       "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\list_titles.py\")",
       "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\list_desc.py\")",
       "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\check_twitter.py\")",
-      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_twitter.py\")"
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_twitter.py\")",
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_twitter_dupes.py\")",
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_article_image.py\")",
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_article_image2.py\")"
     ]
   }
 }
