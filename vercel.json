@@ -25,6 +25,21 @@
       "source": "/comprar",
       "destination": "/contacto.html",
       "permanent": true
+    },
+    {
+      "source": "/contactos",
+      "destination": "/contacto.html",
+      "permanent": true
+    },
+    {
+      "source": "/testemunhos",
+      "destination": "/sobre.html",
+      "permanent": true
+    },
+    {
+      "source": "/principais-perguntas",
+      "destination": "/#faq",
+      "permanent": true
     }
   ]
 }
