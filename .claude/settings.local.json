@@ -87,7 +87,13 @@
       "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_article_image2.py\")",
       "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_resposta_rapida_servicos.py\")",
       "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\add_caminho_critico_mobile.py\")",
-      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_caminho_critico_mobile.py\")"
+      "Bash(python \"C:\\\\Users\\\\diogo\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\A--Claude-code-sites-edd-pt\\\\849d0bb6-e262-401c-8a66-101588019fcf\\\\scratchpad\\\\fix_caminho_critico_mobile.py\")",
+      "WebSearch",
+      "mcp__e1c82a10-e01d-4fe6-84a6-25a1511e6912__get_deployment",
+      "Bash(xargs -I{} basename {})",
+      "mcp__dfs-mcp__kw_data_google_ads_search_volume",
+      "Bash(preparacao-imovel)",
+      "Bash(primeiros-7-dias\")"
     ]
   }
 }
