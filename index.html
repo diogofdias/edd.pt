@@ -616,7 +616,7 @@
       font-family: var(--font-display);
       font-size: clamp(1.75rem, 3vw, 2.25rem);
       font-weight: 300;
-      color: var(--branco);
+      color: var(--tinta);
       line-height: 1;
     }
     .trust-label {
@@ -625,7 +625,7 @@
       font-weight: 500;
       letter-spacing: 0.16em;
       text-transform: uppercase;
-      color: rgba(255,255,255,0.75);
+      color: rgba(26,36,29,0.75);
     }
     .trust-divider { width: 1px; height: 2.5rem; background: rgba(255,255,255,0.25); }
     @media (max-width: 600px) { .trust-divider { display: none; } }
@@ -817,7 +817,7 @@
       margin-top: 0.125rem;
     }
     .diff-marker svg { width: 0.875rem; height: 0.875rem; color: var(--latao); }
-    .diff-text h4 {
+    .diff-text h3 {
       font-family: var(--font-ui);
       font-size: 0.9375rem;
       font-weight: 600;
@@ -982,27 +982,38 @@
     .carousel-dots {
       display: flex;
       justify-content: center;
-      gap: 0.5rem;
+      gap: 0;
+      overflow-x: auto;
+      overflow-y: visible;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
       margin-top: 1.75rem;
     }
+    .carousel-dots::-webkit-scrollbar { display: none; }
     .carousel-dot {
+      flex-shrink: 0;
       position: relative;
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      margin: 0 -10px;
+      padding: 0;
+    }
+    .carousel-dot::after {
+      content: '';
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
       width: 6px; height: 6px;
       border-radius: 50%;
       background: var(--pedra);
-      border: none;
-      cursor: pointer;
       transition: background 0.3s, transform 0.3s;
-      padding: 0;
     }
-    .carousel-dot::before {
-      content: '';
-      position: absolute;
-      top: -19px; left: -19px; right: -19px; bottom: -19px;
-    }
-    .carousel-dot.active {
+    .carousel-dot.active::after {
       background: var(--latao);
-      transform: scale(1.4);
+      transform: translate(-50%, -50%) scale(1.4);
     }
 
     /* ─── Resultados ─── */
@@ -1131,7 +1142,7 @@
       transition: color 0.2s;
     }
     .footer-contact a:hover { color: var(--latao); }
-    .footer-col h4 {
+    .footer-col h2 {
       font-family: var(--font-ui);
       font-size: 0.6875rem;
       font-weight: 500;
@@ -1264,7 +1275,7 @@
   
     /* Resposta rapida */
     .resposta-rapida { background: var(--linho); border-left: 3px solid var(--latao); padding: 1.5rem 1.75rem; margin-bottom: 2.5rem; border-radius: 0 2px 2px 0; }
-    .rr-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--latao); display: block; margin-bottom: 0.75rem; }
+    .rr-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--floresta); display: block; margin-bottom: 0.75rem; }
     .resposta-rapida > p { margin-bottom: 0; font-size: 0.9375rem; color: var(--texto); line-height: 1.75; }
   </style>
   <script src="/assets/analytics.js" defer></script>
@@ -1384,7 +1395,13 @@
         </div>
         <div class="intro-visual">
           <div class="intro-visual-photo">
-            <img src="/assets/diogo-dias-apresentacao.webp" alt="Diogo Dias em apresentação profissional" loading="lazy" width="1200" height="900">
+            <img
+              src="/assets/diogo-dias-apresentacao.webp"
+              srcset="/assets/diogo-dias-apresentacao-700.webp 700w, /assets/diogo-dias-apresentacao.webp 1200w"
+              sizes="(max-width: 900px) calc(100vw - 2rem), 600px"
+              alt="Diogo Dias em apresentação profissional"
+              loading="lazy"
+              width="700" height="525">
           </div>
           <div class="intro-visual-quote">
             <p class="intro-quote">“Ganhei um amigo. Truly looks out for your best interests.”</p>
@@ -1499,7 +1516,7 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
               </div>
               <div class="diff-text">
-                <h4>Background técnico em construção</h4>
+                <h3>Background técnico em construção</h3>
                 <p>16 anos de engenharia civil traduzem-se em leitura real do imóvel — estrutura, acabamentos, potencial de valorização.</p>
               </div>
             </li>
@@ -1508,7 +1525,7 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
               </div>
               <div class="diff-text">
-                <h4>Equipa de bastidores incluída</h4>
+                <h3>Equipa de bastidores incluída</h3>
                 <p>Advogado, solicitador, fotógrafo, videógrafo e gestor de redes sociais. Sem subcontratar por conta do cliente.</p>
               </div>
             </li>
@@ -1517,7 +1534,7 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
               </div>
               <div class="diff-text">
-                <h4>Compromisso formal de cancelamento</h4>
+                <h3>Compromisso formal de cancelamento</h3>
                 <p>Se não cumprirmos o que apresentámos, pode cancelar a qualquer momento. Não há penalização.</p>
               </div>
             </li>
@@ -1526,7 +1543,7 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
               </div>
               <div class="diff-text">
-                <h4>Número limitado de imóveis</h4>
+                <h3>Número limitado de imóveis</h3>
                 <p>Não aceitamos todos os imóveis. Trabalhamos com foco e o foco reflecte-se nos resultados.</p>
               </div>
             </li>
@@ -1926,7 +1943,7 @@
           <p class="footer-rgpd">Rua Rui Furtado, 12B · 2820-235 Charneca de Caparica · Almada</p>
         </div>
         <div class="footer-col">
-          <h4>Serviços</h4>
+          <h2>Serviços</h2>
           <a href="/servicos/diagnostico-venda-almada.html">Diagnóstico de Venda</a>
           <a href="/servicos/avaliacao-imovel-almada.html">Avaliação de Imóvel</a>
           <a href="/servicos/venda-apartamento-almada.html">Venda de Apartamento</a>
@@ -1938,13 +1955,13 @@
           <a href="/sobre.html">Sobre Diogo Dias</a>
           <a href="/artigos.html">Artigos</a>
           <a href="/contacto.html">Contacto</a>
-          <h4 style="margin-top:1.5rem;">Calculadoras</h4>
+          <h2 style="margin-top:1.5rem;">Calculadoras</h2>
           <a href="/calculadoras/imt-imposto-selo.html">IMT e Imposto do Selo</a>
           <a href="/calculadoras/prestacao-casa.html">Prestação da Casa</a>
           <a href="/calculadoras/compra-casa.html">Custos de Compra</a>
         </div>
         <div class="footer-col">
-          <h4>Zonas onde trabalhamos</h4>
+          <h2>Zonas onde trabalhamos</h2>
           <a href="/zonas/consultor-imobiliario-almada.html">Almada</a>
           <a href="/zonas/consultor-imobiliario-barreiro.html">Barreiro</a>
           <a href="/zonas/consultor-imobiliario-cascais.html">Cascais</a>
@@ -2155,6 +2172,6 @@
     });
   </script>
 
-<script src="/assets/cookie-consent.js"></script>
+<script src="/assets/cookie-consent.js" defer></script>
 </body>
 </html>
