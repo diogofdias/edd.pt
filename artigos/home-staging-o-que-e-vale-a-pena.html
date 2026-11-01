@@ -137,12 +137,12 @@
     }
     body { padding-top: 72px; }
     .article-hero { background: var(--tinta); padding: 4rem 2rem 3rem; }
-    .breadcrumb { font-family: var(--font-ui); font-size: 0.8125rem; color: rgba(255,255,255,0.4); margin-bottom: 1.25rem; }
-    .breadcrumb a { color: rgba(255,255,255,0.4); } .breadcrumb a:hover { color: var(--latao); }
+    .breadcrumb { font-family: var(--font-ui); font-size: 0.8125rem; color: rgba(255,255,255,0.65); margin-bottom: 1.25rem; }
+    .breadcrumb a { color: rgba(255,255,255,0.65); } .breadcrumb a:hover { color: var(--latao); }
     .article-cat { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: var(--latao); margin-bottom: 1rem; display: block; }
     .article-hero h1 { font-family: var(--font-display); font-size: clamp(1.75rem, 4vw, 2.75rem); font-weight: 300; color: white; max-width: 22ch; line-height: 1.2; }
     .article-meta { display: flex; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap; }
-    .article-meta span { font-family: var(--font-ui); font-size: 0.8125rem; color: rgba(255,255,255,0.4); }
+    .article-meta span { font-family: var(--font-ui); font-size: 0.8125rem; color: rgba(255,255,255,0.65); }
     .article-body { max-width: 720px; margin: 0 auto; padding: 3.5rem 2rem 5rem; }
     .article-body h2 { font-family: var(--font-display); font-size: clamp(1.5rem, 2.5vw, 2rem); font-weight: 300; color: var(--tinta); margin: 2.5rem 0 1rem; }
     .article-body h3 { font-family: var(--font-ui); font-size: 1.0625rem; font-weight: 600; color: var(--tinta); margin: 2rem 0 0.75rem; }
@@ -165,21 +165,21 @@
     .cta-box { background: var(--tinta); padding: 2.5rem; border-radius: 2px; text-align: center; margin: 3rem 0; }
     .cta-box h3 { font-family: var(--font-display); font-size: 1.75rem; font-weight: 300; color: white; margin-bottom: 0.75rem; }
     .cta-box p { color: rgba(255,255,255,0.55); margin-bottom: 1.5rem; font-size: 0.9375rem; }
-    .cta-box a { display: inline-block; background: var(--latao); color: white; font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 500; padding: 0.875rem 2rem; border-radius: 2px; transition: background 0.2s; }
-    .cta-box a:hover { background: #a07d4a; text-decoration: none; }
+    .cta-box a { display: inline-block; background: var(--latao); color: var(--tinta); font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 600; padding: 0.875rem 2rem; border-radius: 2px; transition: background 0.2s; }
+    .cta-box a:hover { background: #c9a56d; text-decoration: none; }
     .author-box { display: flex; gap: 1.25rem; align-items: flex-start; background: var(--linho); padding: 1.5rem; border-radius: 2px; margin-top: 3rem; }
-    .author-info h4 { font-family: var(--font-ui); font-size: 0.875rem; font-weight: 600; color: var(--tinta); margin-bottom: 0.25rem; }
+    .author-info .author-name { font-family: var(--font-ui); font-size: 0.875rem; font-weight: 600; color: var(--tinta); margin-bottom: 0.25rem; }
     .author-info p { font-size: 0.875rem; color: var(--suave); margin: 0; }
     .mobile-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--tinta); border-top: 1px solid rgba(255,255,255,0.1); padding: 0.875rem 1.5rem; z-index: 50; }
-    .mobile-cta a { display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: var(--latao); color: white; font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 500; padding: 0.875rem; border-radius: 2px; }
+    .mobile-cta a { display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: var(--latao); color: var(--tinta); font-family: var(--font-ui); font-size: 0.9375rem; font-weight: 600; padding: 0.875rem; border-radius: 2px; }
     @media(max-width:1024px){.nav-cta{display:none;}.mobile-cta{display:block;}body{padding-bottom:4.5rem;}}
     .related-articles { background: var(--linho); padding: 3rem var(--gutter); }
-    .related-articles h3 { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--latao); margin-bottom: 1.5rem; }
+    .related-articles h2 { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--floresta); margin-bottom: 1.5rem; }
     .related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
     @media(max-width:600px){ .related-grid { grid-template-columns: 1fr; } }
     .related-card { display: flex; flex-direction: column; gap: 0.5rem; background: var(--branco); padding: 1.5rem; border-left: 2px solid var(--latao); transition: box-shadow 0.2s; }
     .related-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-    .related-cat { font-family: var(--font-ui); font-size: 0.625rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--latao); }
+    .related-cat { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--floresta); }
     .related-title { font-family: var(--font-display); font-size: 1.0625rem; font-weight: 300; color: var(--tinta); line-height: 1.4; }
     .container { max-width: 1200px; margin: 0 auto; padding: 0 var(--gutter); }
     footer { background: #080B0F; padding: 3rem var(--gutter) 2rem; color: rgba(255,255,255,0.65); }
@@ -187,14 +187,14 @@
     .footer-tagline { font-family: var(--font-display); font-style: italic; font-size: 0.9375rem; color: rgba(255,255,255,0.65); margin-bottom: 1.25rem; }
     .footer-contact a { display: block; font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 0.375rem; transition: color 0.2s; }
     .footer-contact a:hover { color: var(--latao); }
-    .footer-col h4 { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 1.25rem; }
+    .footer-col h2 { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.6); margin-bottom: 1.25rem; }
     .footer-col a { display: block; font-size: 0.875rem; color: rgba(255,255,255,0.65); margin-bottom: 0.625rem; transition: color 0.2s; }
     .footer-col a:hover { color: rgba(255,255,255,0.8); }
     .footer-bottom { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
     .footer-bottom p { font-size: 0.8125rem; }
     .footer-bottom a { color: rgba(255,255,255,0.65); transition: color 0.2s; }
     .footer-bottom a:hover { color: var(--latao); }
-    .footer-ami { font-family: var(--font-ui); font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; color: rgba(255,255,255,0.25); }
+    .footer-ami { font-family: var(--font-ui); font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; color: rgba(255,255,255,0.6); }
     .footer-rgpd { font-size: 0.75rem; color: rgba(255,255,255,0.55); margin-top: 0.5rem; }
     @media (max-width: 768px) { .footer-inner { grid-template-columns: 1fr; gap: 2rem; } }
     .market-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.9375rem; }
@@ -202,16 +202,22 @@
     .market-table td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--pedra); color: var(--texto); vertical-align: top; }
     .market-table tr:last-child td { border-bottom: none; }
     .resposta-rapida { background: var(--linho); border-left: 3px solid var(--latao); padding: 1.5rem 1.75rem; margin-bottom: 2.5rem; border-radius: 0 2px 2px 0; }
-    .rr-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--latao); display: block; margin-bottom: 0.75rem; }
+    .rr-label { font-family: var(--font-ui); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--floresta); display: block; margin-bottom: 0.75rem; }
     .resposta-rapida > p { margin-bottom: 0; font-size: 0.9375rem; color: var(--texto); line-height: 1.75; }
     .nav-cta { font-family: var(--font-ui); font-size: 0.8125rem; font-weight: 500; color: var(--latao); letter-spacing: 0.06em; border: 1px solid var(--latao); padding: 0.5rem 1.25rem; border-radius: 2px; transition: all 0.2s; }
-    .nav-cta:hover { background: var(--latao); color: #ffffff; }
+    .nav-cta:hover { background: var(--latao); color: var(--tinta); }
     .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
     .tip-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0; }
     @media(max-width:600px){ .tip-grid { grid-template-columns: 1fr; } }
     .tip-card { background: var(--linho); padding: 1.25rem; border-radius: 2px; }
-    .tip-card h4 { font-family: var(--font-ui); font-size: 0.875rem; font-weight: 600; color: var(--tinta); margin-bottom: 0.5rem; }
+    .article-body .tip-card h3 { font-family: var(--font-ui); font-size: 0.875rem; font-weight: 600; color: var(--tinta); margin: 0 0 0.5rem; }
     .tip-card p { font-size: 0.875rem; color: var(--suave); margin: 0; }
+
+    /* acessibilidade: ligações no texto com contraste suficiente e sublinhado */
+    .article-body a { color: var(--floresta); text-decoration: underline; text-underline-offset: 2px; }
+    .article-body a:hover { color: var(--tinta); }
+    .article-body .cta-box a { color: var(--tinta); text-decoration: none; }
+    .article-body .cta-box a:hover { color: var(--tinta); text-decoration: none; }
   </style>
 
   <script src="/assets/analytics.js" defer></script>
@@ -302,7 +308,7 @@
 
 <p>Não existe apenas um tipo de staging. Dependendo do orçamento e da situação do imóvel, as opções são:</p>
 
-<div class="table-scroll">
+<div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: Tipos de staging: do virtual ao completo">
 <table class="market-table">
   <thead>
     <tr>
@@ -361,27 +367,27 @@
 
 <div class="tip-grid">
   <div class="tip-card">
-    <h4>Despersonalizar</h4>
+    <h3>Despersonalizar</h3>
     <p>Guardar fotografias de família, troféus, colecções. O comprador precisa de se imaginar no espaço — não o proprietário actual.</p>
   </div>
   <div class="tip-card">
-    <h4>Reduzir mobiliário</h4>
+    <h3>Reduzir mobiliário</h3>
     <p>Menos é mais. Retirar peças sobrantes liberta circulação e faz os espaços parecerem maiores nas fotografias.</p>
   </div>
   <div class="tip-card">
-    <h4>Limpeza profunda</h4>
+    <h3>Limpeza profunda</h3>
     <p>Vidros, juntas, casas de banho, fogão. A sujidade é imediatamente perceptível em fotografias e visitas.</p>
   </div>
   <div class="tip-card">
-    <h4>Iluminação</h4>
+    <h3>Iluminação</h3>
     <p>Substituir lâmpadas fundidas, maximizar luz natural. Fotografar com as persianas abertas e luzes acesas.</p>
   </div>
   <div class="tip-card">
-    <h4>Pintura neutral</h4>
+    <h3>Pintura neutral</h3>
     <p>Uma parede de cor forte pode custar visitas. Branco cru ou cinzento suave devolve amplitude e é a base do staging.</p>
   </div>
   <div class="tip-card">
-    <h4>Plantas e flores</h4>
+    <h3>Plantas e flores</h3>
     <p>Uma planta com porte e um ramo de flores frescas transmitem vida e cuidado com o imóvel a custo mínimo.</p>
   </div>
 </div>
@@ -437,7 +443,7 @@
 
 <div class="author-box">
   <div class="author-info">
-    <h4>Diogo Dias · Consultor Imobiliário AMI 24232</h4>
+    <p class="author-name">Diogo Dias · Consultor Imobiliário AMI 24232</p>
     <p>Engenheiro civil com 16 anos de experiência em gestão de projectos de construção. Consultor imobiliário na AML desde 2019, especializado na venda de imóveis em Almada e zona sul do Tejo. Mais de 223 transacções e 30M€ em volume de vendas.</p>
   </div>
 </div>
@@ -446,7 +452,7 @@
 
 <section class="related-articles">
   <div class="article-container">
-    <h3>Artigos relacionados</h3>
+    <h2>Artigos relacionados</h2>
     <div class="related-grid">
       <a href="/artigos/quanto-vale-a-minha-casa.html" class="related-card">
         <span class="related-cat">Avaliação de Imóvel</span>
@@ -481,7 +487,7 @@
         <p class="footer-rgpd">Rua Rui Furtado, 12B &middot; 2820-235 Charneca de Caparica &middot; Almada</p>
       </div>
       <div class="footer-col">
-        <h4>Serviços</h4>
+        <h2>Serviços</h2>
         <a href="/servicos/diagnostico-venda-almada.html">Diagnóstico de Venda</a>
         <a href="/servicos/avaliacao-imovel-almada.html">Avaliação de Imóvel</a>
         <a href="/servicos/venda-apartamento-almada.html">Venda de Apartamento</a>
@@ -493,13 +499,13 @@
         <a href="/sobre.html">Sobre Diogo Dias</a>
         <a href="/artigos.html">Artigos</a>
         <a href="/contacto.html">Contacto</a>
-        <h4 style="margin-top:1.5rem;">Calculadoras</h4>
+        <h2 style="margin-top:1.5rem;">Calculadoras</h2>
         <a href="/calculadoras/imt-imposto-selo.html">IMT e Imposto do Selo</a>
         <a href="/calculadoras/prestacao-casa.html">Prestação da Casa</a>
         <a href="/calculadoras/compra-casa.html">Custos de Compra</a>
       </div>
       <div class="footer-col">
-        <h4>Zonas onde trabalhamos</h4>
+        <h2>Zonas onde trabalhamos</h2>
         <a href="/zonas/consultor-imobiliario-almada.html">Almada</a>
         <a href="/zonas/consultor-imobiliario-barreiro.html">Barreiro</a>
         <a href="/zonas/consultor-imobiliario-cascais.html">Cascais</a>

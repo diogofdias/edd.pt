@@ -16,8 +16,8 @@
     '#edd-cb-accept,#edd-cb-reject{font-family:system-ui,sans-serif;font-size:0.8125rem;' +
     'font-weight:500;border-radius:2px;cursor:pointer;padding:0.5rem 1.25rem;' +
     'letter-spacing:0.04em;white-space:nowrap;transition:all 0.2s;line-height:1.4;}' +
-    '#edd-cb-accept{background:#B8935A;color:#fff;border:1px solid #B8935A;}' +
-    '#edd-cb-accept:hover{background:#a07d4a;border-color:#a07d4a;}' +
+    '#edd-cb-accept{background:#B8935A;color:#1a241d;border:1px solid #B8935A;}' +
+    '#edd-cb-accept:hover{background:#c9a56d;border-color:#c9a56d;}' +
     '#edd-cb-reject{background:transparent;color:rgba(255,255,255,0.55);' +
     'border:1px solid rgba(255,255,255,0.2);}' +
     '#edd-cb-reject:hover{border-color:rgba(255,255,255,0.5);color:#fff;}' +
