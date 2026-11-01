@@ -25,7 +25,7 @@
 
   <url>
     <loc>https://edd.pt/artigos.html</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -68,7 +68,7 @@
   <!-- Artigos -->
   <url>
     <loc>https://edd.pt/artigos/quanto-custa-vender-imovel-almada.html</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -82,7 +82,7 @@
 
   <url>
     <loc>https://edd.pt/artigos/vender-ou-arrendar-casa-almada.html</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -103,7 +103,7 @@
 
   <url>
     <loc>https://edd.pt/artigos/troca-de-casa-vender-ou-comprar-primeiro.html</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -124,7 +124,7 @@
 
   <url>
     <loc>https://edd.pt/artigos/analise-financeira-preliminar-troca-de-casa.html</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -159,7 +159,7 @@
 
   <url>
     <loc>https://edd.pt/artigos/credito-ponte-troca-de-casa.html</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -463,7 +463,7 @@
 
   <url>
     <loc>https://edd.pt/artigos/mais-valias-venda-casa-tenho-de-pagar.html</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -498,7 +498,7 @@
 
   <url>
     <loc>https://edd.pt/artigos/irs-venda-casa-quanto-se-paga.html</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -519,14 +519,14 @@
 
   <url>
     <loc>https://edd.pt/artigos/como-vender-uma-casa-inicio-ao-fim.html</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://edd.pt/artigos/o-que-se-paga-quando-vende-casa.html</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -540,7 +540,7 @@
 
   <url>
     <loc>https://edd.pt/artigos/documentos-para-vender-casa.html</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -562,6 +562,83 @@
   <url>
     <loc>https://edd.pt/artigos/quem-paga-escritura-comprador-vendedor.html</loc>
     <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/artigos/reinvestimento-mais-valias-troca-de-casa.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/artigos/escritura-imovel-como-funciona-o-que-fazer-depois.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/artigos/licenca-de-utilizacao-o-que-e-como-pedir-casa-sem-licenca.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/artigos/vender-imovel-heranca-mais-valias-heranca-indivisa.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/artigos/taxa-de-esforco-quanto-posso-pedir-credito-habitacao.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/artigos/imi-quando-se-paga-como-calcular-isencao.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/artigos/isencao-mais-valias-maiores-65-anos.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/artigos/nova-lei-arrendamento-2026-o-que-muda.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/artigos/amortizar-credito-habitacao-vale-a-pena.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/artigos/denuncia-rescisao-contrato-arrendamento.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://edd.pt/artigos/registo-alojamento-local-licenca-impostos-vale-a-pena.html</loc>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
