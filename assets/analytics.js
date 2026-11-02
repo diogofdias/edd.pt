@@ -3,6 +3,18 @@
   var GA_ID = 'G-BQZEQC5T49';
   var KEY = 'edd_cookie_consent';
 
+  // 0. Vercel Web Analytics — sem cookies, conta todas as visitas (não depende do banner).
+  //    Fica primeiro para não ser afetado por erros mais abaixo (ex.: localStorage bloqueado).
+  //    Não carrega em localhost nem em ficheiros locais.
+  var host = location.hostname;
+  if (location.protocol !== 'file:' && host !== 'localhost' && host !== '127.0.0.1') {
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    var vs = document.createElement('script');
+    vs.async = true;
+    vs.src = '/_vercel/insights/script.js';
+    document.head.appendChild(vs);
+  }
+
   // 1. Inicializa dataLayer e função gtag
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
