@@ -1,0 +1,25 @@
+{
+  "name": "edd-pt",
+  "version": "1.0.0",
+  "description": "Equipa Diogo Dias - Real Estate Website",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogofdias/edd.pt.git"
+  },
+  "keywords": [
+    "real-estate",
+    "vercel-analytics"
+  ],
+  "author": "Diogo Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogofdias/edd.pt/issues"
+  },
+  "homepage": "https://github.com/diogofdias/edd.pt#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
